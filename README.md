@@ -1,4 +1,4 @@
-# LARA SANTOS | AI Automation Specialist
+# AI Automation Specialist
 > I engineer scalable AI agents, multi-model LLM integrations, and robust backend workflow automations that eliminate operational bottlenecks and scale business growth.
 
 📬 **Let's Connect:**
@@ -27,7 +27,7 @@
 * **The Solution:** Engineered a zero-latency, event-driven pipeline on Make.com coupled with Gemini 3.6 Flash. The engine automatically handles calendar availability collision analysis, routes workflows dynamically using conditional logic filters, logs production processing states to Google Sheets, and writes complex raw HTML communication responses inside Gmail.
 * **Key Engineering Metrics:** High-precision array length validation guardrails, automated state error mitigation forks, and context-aware system prompting templates.
 * **Code & Architecture:** 
-  * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com)
+  * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
 
 
 --
