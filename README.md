@@ -27,7 +27,7 @@
 * **The Solution:** Engineered a zero-latency, event-driven pipeline on Make.com coupled with Gemini 3.6 Flash. The engine automatically handles calendar availability collision analysis, routes workflows dynamically using conditional logic filters, logs production processing states to Google Sheets, and writes complex raw HTML communication responses inside Gmail.
 * **Key Engineering Metrics:** High-precision array length validation guardrails, automated state error mitigation forks, and context-aware system prompting templates.
 * **Code & Architecture:** 
-  * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
+  * 💻 [View Source Code Blueprint & Workflow Breakdown](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
 --- 
 
 ### 🏓 THE KITCHEN DECK : Mobile-Responsive Web Application, Production-Grade Product
@@ -40,4 +40,14 @@
 * **Core & Architecture:** The underlying source code, database structures, custom visual card templates, and corporate branding for this project are proprietary and hosted in a private repository to protect intellectual property. Permission is granted strictly for public portfolio demonstration, recruitment evaluation, and educational review via the live published site. No part of the visual assets or architecture may be replicated for commercial purposes.
 Note: This link hosts the active, responsive web build directly from the Lovable staging server, optimized for real-time mobile browser testing right on the court.
    * [🚀Launch Live Build The Kitchen Deck Web Application](https://gamifiedpickleballdrill.lovable.app)
-   * [View Repository](https://github.com/larasaints/gamified-pickleball-drill-cards)
+   * [💻 View Repository](https://github.com/larasaints/gamified-pickleball-drill-cards)
+ 
+### 🎨 DIGITAL DESIGN REPOSITORY : Motion Graphics, Static Assets & Creative Workflows
+
+- **The Scope:** A curated production vault documenting the development of high-impact visual media, spanning dynamic animation timelines and structured static compositions.
+- **Core Specializations:**
+    - **Motion Graphic Design:** Kinetic typography, video transitions, animated pacing, and multi-page promotional video structures.
+    - **Static Graphic Design:** Visual hierarchy layouts, spatial balance, product presentation boards, and intentional CTA placements.
+
+- **Code & Repository:**
+    - [💻 View Digital Design Portfolio](https://github.com/larasaints/digital-design-portfolio)
