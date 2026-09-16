@@ -20,7 +20,7 @@
 
 ---
 
-## 📂 Featured AI Automation Projects
+## 📂 FEATURED PROJECTS
 
 ### 🤖 AI-Powered Airbnb Rental Booking Automation Engine
 * **The Problem:** Manual multi-unit scheduling across tiered weekday/weekend rate models created high response latency, billing calculation errors, and constant double-booking risks across B2C tenants and B2B brokers.
