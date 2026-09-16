@@ -30,7 +30,7 @@
   * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
 --- 
 
-### 🏓 Production-Grade Product: Gamified Pickleball Drill Cards
+### 🏓 Production-Grade Product: THE KITCHEN DECK : Gamified Pickleball Drill Cards 
 * **The Problem:** Traditional sports training regimens suffer from low compliance due to two primary friction points:
   1.  Cognitive Load on Court : Players must remember complex drill layouts, scoring rules, and target zones while physically exerting themselves.
   2.  Lack of Feedback Loops : Static drill sheets offer no immediate psychological reward, leading to rapid dropout rates and unstructured practice sessions.
