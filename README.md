@@ -1,4 +1,4 @@
-# Digital Smith | AI Automations, Digital Graphic Designer, Full-Stack Developer
+# Digital Smith | Digital Graphic Designer, AI Automations, Full-Stack Developer
 > I transform concepts into high-performing digital realities. By blending intelligent AI workflows, strategic graphic design, and full-stack software development, I build end-to-end solutions that scale. Let’s partner up to streamline your operations and drive your business forward.
 
 📬 **Let's Connect:**
@@ -30,7 +30,7 @@
   * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
 --- 
 
-### 🏓 Production-grade product: Gamified Pickleball Drill Cards
+### 🏓 Production-Grade Product: Gamified Pickleball Drill Cards
 * **The Problem:** Traditional sports training regimens suffer from low compliance due to two primary friction points:
   1.  Cognitive Load on Court : Players must remember complex drill layouts, scoring rules, and target zones while physically exerting themselves.
   2.  Lack of Feedback Loops : Static drill sheets offer no immediate psychological reward, leading to rapid dropout rates and unstructured practice sessions.
