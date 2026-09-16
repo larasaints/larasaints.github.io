@@ -28,8 +28,16 @@
 * **Key Engineering Metrics:** High-precision array length validation guardrails, automated state error mitigation forks, and context-aware system prompting templates.
 * **Code & Architecture:** 
   * 💻 [View Source Code Blueprint & Workflow Breakdown →](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
+--- 
 
-
---
-
+### 🏓 Production-grade product: Gamified Pickleball Drill Cards
+* **The Problem:** Traditional sports training regimens suffer from low compliance due to two primary friction points:
+  1.  Cognitive Load on Court : Players must remember complex drill layouts, scoring rules, and target zones while physically exerting themselves.
+  2.  Lack of Feedback Loops : Static drill sheets offer no immediate psychological reward, leading to rapid dropout rates and unstructured practice sessions.
+* **The Solution:** A high-contrast, touch-optimized visual engine that translates structural sports drills into gamified digital cards. 
+  1.  Visual Frameworks: Breaks down spatial movement patterns into glanceable, high-fidelity card layouts.
+  2.  Behavioral Mechanics: Replaces mental tracking with real-time feedback loops, XP counters, and level progression models to increase user engagement.
+* **Core & Architecture:** The underlying source code, database structures, custom visual card templates, and corporate branding for this project are proprietary and hosted in a private repository to protect intellectual property. Permission is granted strictly for public portfolio demonstration, recruitment evaluation, and educational review via the live published site. No part of the visual assets or architecture may be replicated for commercial purposes.
+Note: This link hosts the active, responsive web build directly from the Lovable staging server, optimized for real-time mobile browser testing right on the court.
+   * [🚀Launch Live Build The Kitchen Deck Web Application](https://gamifiedpickleballdrill.lovable.app)
 
