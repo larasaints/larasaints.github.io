@@ -40,4 +40,4 @@
 * **Core & Architecture:** The underlying source code, database structures, custom visual card templates, and corporate branding for this project are proprietary and hosted in a private repository to protect intellectual property. Permission is granted strictly for public portfolio demonstration, recruitment evaluation, and educational review via the live published site. No part of the visual assets or architecture may be replicated for commercial purposes.
 Note: This link hosts the active, responsive web build directly from the Lovable staging server, optimized for real-time mobile browser testing right on the court.
    * [🚀Launch Live Build The Kitchen Deck Web Application](https://gamifiedpickleballdrill.lovable.app)
-
+   * [View Repository](https://github.com/larasaints/gamified-pickleball-drill-cards)
