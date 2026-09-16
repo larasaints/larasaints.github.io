@@ -14,7 +14,7 @@
 * 🔌 **Enterprise Workflow Automation:** Make.com (Integromat) • n8n • Zapier
 * 💻 **Low-Code & Full-Stack Prototyping:** Lovable.io • Supabase Database Integration • Web App Architecture • Rapid Prototyping
 * 🎨 **System Design & Asset Creation:** UI Component Design Systems • Template Engineering • Brand Visual Identity • Digital Asset Architecture
-* 🕹️ **Logic & Interactive Media:** Event-Driven Programming • Logic Architecture • Game Mechanics Design • Interactive Storytelling
+* 🕹️ **Logic & Interactive Media:** Event-Driven Programming • Logic Architecture • Game Mechanics Design • Interactive Storytelling • Motion Graphics & Video Production
 * ⚙️ **Backend Dev & Version Control:** GitHub • REST API Integration
 
 
