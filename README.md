@@ -42,7 +42,7 @@ Note: This link hosts the active, responsive web build directly from the Lovable
    * [🚀Launch Live Build The Kitchen Deck Web Application](https://gamifiedpickleballdrill.lovable.app)
    * [💻 View Repository](https://github.com/larasaints/gamified-pickleball-drill-cards)
  
-### 🎨 DIGITAL DESIGN REPOSITORY : Motion Graphics, Static Assets & Creative Workflows
+### 🎨 Digital Graphic Design : Motion Graphics & Static Assets
 
 - **The Scope:** A curated production vault documenting the development of high-impact visual media, spanning dynamic animation timelines and structured static compositions.
 - **Core Specializations:**
@@ -50,4 +50,4 @@ Note: This link hosts the active, responsive web build directly from the Lovable
     - **Static Graphic Design:** Visual hierarchy layouts, spatial balance, product presentation boards, and intentional CTA placements.
 
 - **Code & Repository:**
-    - [💻 View Digital Design Portfolio](https://github.com/larasaints/digital-design-portfolio)
+    - [💻 View Work Samples of my Graphic Designs & Creative Process](https://github.com/larasaints/digital-design-portfolio)
