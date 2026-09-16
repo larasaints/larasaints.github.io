@@ -1,4 +1,4 @@
-# AI Automation Specialist
+# Digital Smith | AI Automations, Digital Graphic Designer, Full-Stack Developer
 > I engineer scalable AI agents, multi-model LLM integrations, and robust backend workflow automations that eliminate operational bottlenecks and scale business growth.
 
 📬 **Let's Connect:**
