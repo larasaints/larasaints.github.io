@@ -51,5 +51,5 @@ Note: This link hosts the active, responsive web build directly from the Lovable
     - **Motion Graphic Design:** Kinetic typography, video transitions, animated pacing, and multi-page promotional video structures.
     - **Static Graphic Design:** Visual hierarchy layouts, spatial balance, product presentation boards, and intentional CTA placements.
 
-- **Code & Repository:**
+- **Actual Designs:**
     - [💻 View Work Samples of my Graphic Designs & Creative Process](https://github.com/larasaints/digital-design-portfolio)
