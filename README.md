@@ -22,12 +22,12 @@
 
 ## 📂 FEATURED PROJECTS
 
-### 🤖 AI-Powered Airbnb Rental Booking Automation Engine
-* **The Problem:** Manual multi-unit scheduling across tiered weekday/weekend rate models created high response latency, billing calculation errors, and constant double-booking risks across B2C tenants and B2B brokers.
-* **The Solution:** Engineered a zero-latency, event-driven pipeline on Make.com coupled with Gemini 3.6 Flash. The engine automatically handles calendar availability collision analysis, routes workflows dynamically using conditional logic filters, logs production processing states to Google Sheets, and writes complex raw HTML communication responses inside Gmail.
-* **Key Engineering Metrics:** High-precision array length validation guardrails, automated state error mitigation forks, and context-aware system prompting templates.
+### 🤖 Hands-Free AI-Powered Facebook Leads Automation Engine
+* **The Problem:** Real estate lead intake introduces major response delays when done manually. Hot buyer interest cools down within minutes, resulting in lost sales conversions, double-booking calendar conflicts, and slow customer follow-ups.
+* **The Solution:** Built a real-time, event-driven pipeline on Make.com connected to Gemini AI. The engine instantly captures Facebook Lead Ads data packets, sorts client profiles by property choice using filters, logs records to Google Sheets, checks calendar availability, and drafts custom property proposals sent straight to the buyer via Gmail.
+* **Key Engineering Metrics:** Sub-2-minute automated lead response times, real-time webhook data capture, parallel multi-property path routing, and automatic error-handling retry guards.
 * **Code & Architecture:** 
-  * 💻 [View Source Code Blueprint & Workflow Breakdown](https://github.com/larasaints/ai-powered-airbnb-rental-booking-automation)
+  * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
 
     
 --- 
