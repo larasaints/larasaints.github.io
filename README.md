@@ -22,14 +22,27 @@
 
 ## 📂 FEATURED PROJECTS
 
-### 🤖 Hands-Free AI-Powered Facebook Leads Automation Engine
+### Automations 
+   * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
+#### 🏢 UrbanBite: Multi-Zap Franchise Operations & Compliance Automation Engine
+* **The Problem:** Managing franchise operations across multiple locations manually leads to severe operational bottlenecks. Inspection results are lost in transit, critical business permits silently approach expiration, and missing monthly reports require compliance teams to waste hours cross-referencing logs and chasing operators for paperwork.
+* **The Solution:** A centralized, multi-Zap automated operations architecture that manages the entire lifecycle of franchise compliance. The system intercepts form entries, dynamically updates tracking databases, monitors deadlines using time-based schedules, triggers multi-tiered operational escalations, and feeds real-time status metrics directly into an executive operations dashboard.
+* **Ecosystem Architecture (Five Automation Workflows):**
+    * **ZAP 01 — New Compliance Submission:** Captures new compliance submissions, creates compliance records, identifies reported issues, and triggers appropriate alerts.
+    * **ZAP 02 — Issue Resolution & Corrective Action:** Processes issue-resolution submissions, updates issue records, and triggers follow-up notifications when required.
+    * **ZAP 03 — Overdue Issue Monitoring & Escalation:** Automatically identifies overdue issues and sends a consolidated escalation report.
+    * **ZAP 04 — Document Expiration Monitoring:** Monitors franchise documents and identifies expired or upcoming expirations requiring renewal action.
+    * **ZAP 05 — Missing Monthly Compliance Submission:** Checks active franchises for missing monthly submissions and sends consolidated reminders while preventing duplicate alerts.
+* **Key Engineering Metrics:** Designed a 5-Zap interconnected ecosystem, engineered a unified Google Sheets relational data layer, integrated automated daily time-interval deadline checking, and built consolidated multi-condition operational escalation logic.
+* **Code & Architecture:**
+    * 💻 [View UB repository, diagram and system flows](https://github.com/larasaints/automations/tree/3d7f0d567d97089b5b73bd3d5d5b388590732851/urbanbite-franchise-compliance)
+
+#### 🤖 Hands-Free AI-Powered Facebook Leads Automation Engine
 * **The Problem:** Real estate lead intake introduces major response delays when done manually. Hot buyer interest cools down within minutes, resulting in lost sales conversions, double-booking calendar conflicts, and slow customer follow-ups.
 * **The Solution:** Built a real-time, event-driven pipeline on Make.com connected to Gemini AI. The engine instantly captures Facebook Lead Ads data packets, sorts client profiles by property choice using filters, logs records to Google Sheets, checks calendar availability, and drafts custom property proposals sent straight to the buyer via Gmail.
 * **Key Engineering Metrics:** Sub-2-minute automated lead response times, real-time webhook data capture, parallel multi-property path routing, and automatic error-handling retry guards.
 * **Code & Architecture:** 
-  * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
-
-    
+  * 💻 [View Facebook Leads Documentation](https://github.com/larasaints/automations/tree/685be2abc4566d5416047f93122ac4efc501d67e/facebook-leads-gemini-ai-handsfree-engine)
 --- 
 
 ### 🏓 THE KITCHEN DECK : Mobile-Responsive Web Application, Production-Grade Product
