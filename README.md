@@ -1,4 +1,4 @@
-# Digital Smith | Digital Graphic Designer, AI Automations, Full-Stack Developer
+# Digital Smith | AI Automations Specialist, Digital Graphic Designer
 > I transform concepts into high-performing digital realities. By blending intelligent AI workflows, strategic graphic design, and full-stack software development, I build end-to-end solutions that scale. Let’s partner up to streamline your operations and drive your business forward.
 
 📬 **Let's Connect:**
