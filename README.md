@@ -31,11 +31,9 @@
 #### 🏢 UrbanBite: Multi-Zap Franchise Operations & Compliance Automation Engine
 
 * **The Problem:** Managing franchise operations across multiple locations manually leads to operational bottlenecks. Inspection results can be difficult to track, critical business permits can approach expiration unnoticed, and missing monthly reports require compliance teams to manually cross-reference records and follow up with operators.
-
 * **The Solution:** A centralized, multi-Zap automated operations architecture that manages the franchise compliance lifecycle. The system captures form submissions, updates tracking databases, monitors deadlines using scheduled workflows, triggers operational escalations, and feeds status metrics into a centralized operations dashboard.
 
 * **Ecosystem Architecture — Five Automation Workflows:**
-
   * **ZAP 01 — New Compliance Submission:** Captures submissions, creates compliance records, identifies reported issues, and triggers appropriate alerts.
   * **ZAP 02 — Issue Resolution & Corrective Action:** Processes resolution submissions, updates issue records, and triggers follow-up notifications when required.
   * **ZAP 03 — Overdue Issue Monitoring & Escalation:** Identifies overdue issues and sends a consolidated escalation report.
@@ -47,15 +45,15 @@
 * **Code & Architecture:**
 
   * 💻 [View UB repository, diagram and system flows](https://github.com/larasaints/automations/tree/3d7f0d567d97089b5b73bd3d5d5b388590732851/urbanbite-franchise-compliance)
-
+  * 🎥[Watch the Loom Workflow Demonstration](https://www.loom.com/share/465b4946e5f7434ba5092fd0746fdb20)
+ 
+    
 #### 🎧 AI Customer Support Automation & Intelligent Ticket Triage Engine
 
 * **The Problem:** Customer support teams often spend significant time manually reading incoming requests, categorizing issues, creating tickets, drafting responses, and identifying cases that require escalation.
-
 * **The Solution:** Built an AI-assisted support intake and triage workflow using n8n and Google Gemini. The system receives customer messages through a webhook, checks for duplicates, classifies the request, generates a draft response, logs structured ticket data in Airtable, and routes sensitive or uncertain requests for human review.
 
 * **AI & Automation Logic:**
-
   * Classifies requests into Billing, Access, Scheduling, Technical Support, General Question, or Refund Request.
   * Generates a confidence score and classification reason.
   * Creates an AI-generated customer response draft.
@@ -66,12 +64,10 @@
   * Prevents duplicate processing through Message ID validation.
 
 * **Key Engineering Metrics:** Event-driven webhook architecture, AI-powered classification, deterministic human-review rules, structured Airtable ticket logging, duplicate prevention, and automated error handling.
-
+  
 * **Code & Architecture:**
-
   * 💻 [View Customer Support repository, workflow documentation and testing](https://github.com/larasaints/automations/tree/main/ai-customer-support-automation)
-
-* 🎥 **[Watch the Loom Workflow Demonstration]**
+  * 🎥[Watch the Loom Workflow Demonstration](https://www.loom.com/share/cef927cb92fa497eac2138751f16213b)
 
 #### 🤖 Hands-Free AI-Powered Facebook Leads Automation Engine
 
