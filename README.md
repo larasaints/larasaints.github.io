@@ -28,7 +28,7 @@
 
 * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
 
-#### 🏢 UrbanBite: Multi-Zap Franchise Operations & Compliance Automation Engine
+### 🏢 UrbanBite: Multi-Zap Franchise Operations & Compliance Automation Engine
 
 * **The Problem:** Managing franchise operations across multiple locations manually leads to operational bottlenecks. Inspection results can be difficult to track, critical business permits can approach expiration unnoticed, and missing monthly reports require compliance teams to manually cross-reference records and follow up with operators.
 * **The Solution:** A centralized, multi-Zap automated operations architecture that manages the franchise compliance lifecycle. The system captures form submissions, updates tracking databases, monitors deadlines using scheduled workflows, triggers operational escalations, and feeds status metrics into a centralized operations dashboard.
@@ -48,7 +48,7 @@
   * 🎥[Watch the Loom Workflow Demonstration](https://www.loom.com/share/465b4946e5f7434ba5092fd0746fdb20)
  
     
-#### 🎧 AI Customer Support Automation & Intelligent Ticket Triage Engine
+### 🎧 AI Customer Support Automation & Intelligent Ticket Triage Engine
 
 * **The Problem:** Customer support teams often spend significant time manually reading incoming requests, categorizing issues, creating tickets, drafting responses, and identifying cases that require escalation.
 * **The Solution:** Built an AI-assisted support intake and triage workflow using n8n and Google Gemini. The system receives customer messages through a webhook, checks for duplicates, classifies the request, generates a draft response, logs structured ticket data in Airtable, and routes sensitive or uncertain requests for human review.
