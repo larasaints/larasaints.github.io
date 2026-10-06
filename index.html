@@ -3,44 +3,56 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lara Joy Santos — AI Automation Specialist building practical AI-powered workflows with Make, Zapier, n8n, GoHighLevel, and more." />
-  <meta name="theme-color" content="#0b0f14" />
-  <title>Lara Joy Santos | AI Automation Specialist</title>
+
+  <title>Lara Joy Santos | Digital Smith — AI Automations Specialist</title>
+
+  <meta
+    name="description"
+    content="Lara Joy Santos — Digital Smith, AI Automations Specialist and Digital Graphic Designer building AI-powered workflows, automation systems, digital products, and scalable business solutions."
+  />
+
+  <meta name="theme-color" content="#080b12" />
 
   <!-- Tailwind CSS -->
   <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet"
+  />
 
   <script>
     tailwind.config = {
       theme: {
         extend: {
           colors: {
-            ink: "#080b10",
-            slate: {
-              950: "#0b0f14",
-              900: "#11161d",
-              850: "#151b23",
-              800: "#1b232d"
+            dark: {
+              950: "#070a0f",
+              900: "#0b0f16",
+              850: "#10151e",
+              800: "#151c27",
             },
-            electric: "#3b82f6",
-            neon: "#a3ff12"
+            electric: "#4f8cff",
+            neon: "#b6ff3b",
           },
-          boxShadow: {
-            glow: "0 0 40px rgba(59, 130, 246, 0.18)",
-            neon: "0 0 35px rgba(163, 255, 18, 0.14)"
-          }
-        }
-      }
-    }
-  </script>
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
-    rel="stylesheet"
-  />
+          fontFamily: {
+            sans: ["DM Sans", "sans-serif"],
+            display: ["Space Grotesk", "sans-serif"],
+          },
+
+          boxShadow: {
+            glow: "0 0 80px rgba(79,140,255,.12)",
+            neon: "0 0 50px rgba(182,255,59,.10)",
+          },
+        },
+      },
+    };
+  </script>
 
   <style>
     html {
@@ -48,875 +60,2026 @@
     }
 
     body {
-      font-family: "Inter", sans-serif;
       background:
-        radial-gradient(circle at 80% 10%, rgba(59,130,246,.10), transparent 30%),
-        radial-gradient(circle at 10% 35%, rgba(163,255,18,.035), transparent 25%),
-        #080b10;
+        radial-gradient(
+          circle at 80% 0%,
+          rgba(79, 140, 255, 0.13),
+          transparent 28%
+        ),
+        radial-gradient(
+          circle at 0% 45%,
+          rgba(182, 255, 59, 0.035),
+          transparent 25%
+        ),
+        #070a0f;
+
+      color: #e5e7eb;
     }
 
-    h1, h2, h3, .display {
+    h1,
+    h2,
+    h3,
+    h4 {
       font-family: "Space Grotesk", sans-serif;
     }
 
     ::selection {
-      background: rgba(163,255,18,.85);
-      color: #080b10;
+      background: #b6ff3b;
+      color: #070a0f;
     }
 
     .grid-bg {
       background-image:
         linear-gradient(rgba(255,255,255,.025) 1px, transparent 1px),
         linear-gradient(90deg, rgba(255,255,255,.025) 1px, transparent 1px);
+
       background-size: 48px 48px;
     }
 
     .glass {
-      background: rgba(17, 22, 29, .72);
+      background: rgba(16, 21, 30, 0.72);
       backdrop-filter: blur(18px);
       -webkit-backdrop-filter: blur(18px);
-      border: 1px solid rgba(255,255,255,.08);
+      border: 1px solid rgba(255,255,255,.075);
     }
 
     .gradient-text {
-      background: linear-gradient(90deg, #ffffff 0%, #93c5fd 48%, #a3ff12 100%);
+      background: linear-gradient(
+        90deg,
+        #ffffff 0%,
+        #8bb8ff 45%,
+        #b6ff3b 100%
+      );
+
       -webkit-background-clip: text;
       background-clip: text;
       color: transparent;
     }
 
-    .blue-line {
-      background: linear-gradient(90deg, #3b82f6, #a3ff12);
-    }
-
     .project-card {
-      transition: transform .3s ease, border-color .3s ease, box-shadow .3s ease;
+      transition:
+        transform .3s ease,
+        border-color .3s ease,
+        box-shadow .3s ease;
     }
 
     .project-card:hover {
-      transform: translateY(-6px);
-      border-color: rgba(59,130,246,.38);
-      box-shadow: 0 20px 60px rgba(0,0,0,.3);
+      transform: translateY(-5px);
+      border-color: rgba(79,140,255,.35);
+      box-shadow: 0 30px 80px rgba(0,0,0,.3);
     }
 
-    .social-card {
-      transition: transform .25s ease, background .25s ease, border-color .25s ease;
+    .profile-card {
+      transition:
+        transform .25s ease,
+        border-color .25s ease,
+        background .25s ease;
     }
 
-    .social-card:hover {
-      transform: translateY(-4px);
-      background: rgba(255,255,255,.055);
-      border-color: rgba(163,255,18,.35);
+    .profile-card:hover {
+      transform: translateY(-5px);
+      border-color: rgba(182,255,59,.35);
+      background: rgba(255,255,255,.045);
     }
 
-    .workflow-placeholder {
+    .workflow-frame {
       background:
-        radial-gradient(circle at 70% 30%, rgba(59,130,246,.20), transparent 25%),
-        radial-gradient(circle at 20% 70%, rgba(163,255,18,.10), transparent 25%),
-        #0b1017;
+        radial-gradient(
+          circle at 75% 25%,
+          rgba(79,140,255,.18),
+          transparent 30%
+        ),
+        radial-gradient(
+          circle at 20% 75%,
+          rgba(182,255,59,.08),
+          transparent 30%
+        ),
+        #090d13;
+    }
+
+    .number {
+      font-variant-numeric: tabular-nums;
     }
   </style>
 </head>
 
-<body class="text-slate-200 antialiased">
+<body class="font-sans antialiased">
 
-  <!-- =========================
+  <!-- =========================================================
        NAVIGATION
-  ========================== -->
+  ========================================================== -->
+
   <header class="fixed top-0 left-0 right-0 z-50">
+
     <nav class="glass border-x-0 border-t-0">
+
       <div class="max-w-7xl mx-auto px-5 sm:px-8">
+
         <div class="h-20 flex items-center justify-between">
 
-          <a href="#top" class="flex items-center gap-3 group">
-            <div class="w-9 h-9 rounded-xl bg-electric/10 border border-electric/30 flex items-center justify-center">
-              <span class="text-neon font-bold">L</span>
+          <a href="#home" class="flex items-center gap-3">
+
+            <div
+              class="w-10 h-10 rounded-xl bg-electric/10 border border-electric/30 flex items-center justify-center"
+            >
+              <span class="font-display font-bold text-neon">
+                L
+              </span>
             </div>
+
             <div>
-              <div class="font-bold text-white leading-none">Lara Joy Santos</div>
-              <div class="text-[10px] uppercase tracking-[.2em] text-slate-500 mt-1">
-                AI Automation Specialist
+              <div class="font-display font-bold text-white">
+                Lara Joy Santos
+              </div>
+
+              <div
+                class="text-[10px] uppercase tracking-[.18em] text-gray-500"
+              >
+                Digital Smith
               </div>
             </div>
+
           </a>
 
+
           <div class="hidden md:flex items-center gap-8 text-sm">
-            <a href="#work" class="text-slate-400 hover:text-white transition">Work</a>
-            <a href="#stack" class="text-slate-400 hover:text-white transition">Stack</a>
-            <a href="#hire" class="text-slate-400 hover:text-white transition">Hire Me</a>
+
             <a
-              href="YOUR_LINKEDIN_URL_HERE"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="px-4 py-2 rounded-lg border border-white/10 hover:border-electric/40 hover:bg-electric/10 text-white transition"
+              href="#work"
+              class="text-gray-400 hover:text-white transition"
             >
-              LinkedIn ↗
+              Work
             </a>
+
+            <a
+              href="#capabilities"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Capabilities
+            </a>
+
+            <a
+              href="#stack"
+              class="text-gray-400 hover:text-white transition"
+            >
+              Stack
+            </a>
+
+            <a
+              href="#contact"
+              class="px-4 py-2 rounded-lg bg-white text-dark-950 font-semibold hover:bg-neon transition"
+            >
+              Let's Connect
+            </a>
+
           </div>
 
         </div>
+
       </div>
+
     </nav>
+
   </header>
 
 
-  <main id="top">
+  <main id="home">
 
-    <!-- =========================
+
+    <!-- =========================================================
          HERO
-    ========================== -->
-    <section class="relative min-h-screen flex items-center overflow-hidden grid-bg pt-28">
-      <div class="absolute inset-0 pointer-events-none">
-        <div class="absolute w-72 h-72 bg-electric/10 rounded-full blur-3xl top-20 right-10"></div>
-        <div class="absolute w-64 h-64 bg-neon/5 rounded-full blur-3xl bottom-10 left-10"></div>
-      </div>
+    ========================================================== -->
 
-      <div class="max-w-7xl mx-auto px-5 sm:px-8 py-20 relative z-10 w-full">
+    <section
+      class="min-h-screen pt-32 pb-20 flex items-center relative overflow-hidden grid-bg"
+    >
+
+      <div
+        class="absolute top-20 right-0 w-96 h-96 rounded-full bg-electric/10 blur-[120px]"
+      ></div>
+
+      <div
+        class="absolute bottom-0 left-0 w-80 h-80 rounded-full bg-neon/5 blur-[120px]"
+      ></div>
+
+
+      <div
+        class="max-w-7xl mx-auto px-5 sm:px-8 w-full relative z-10"
+      >
+
         <div class="max-w-5xl">
 
-          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-full border border-neon/20 bg-neon/5 text-neon text-xs font-semibold uppercase tracking-[.18em] mb-8">
-            <span class="w-2 h-2 rounded-full bg-neon animate-pulse"></span>
-            Available for clients & full-time roles
+          <div
+            class="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-neon/20 bg-neon/5 text-neon text-xs font-semibold uppercase tracking-[.18em] mb-8"
+          >
+
+            <span
+              class="w-2 h-2 rounded-full bg-neon animate-pulse"
+            ></span>
+
+            AI Automation • Digital Design • Digital Solutions
+
           </div>
 
-          <h1 class="text-5xl sm:text-6xl lg:text-8xl font-bold tracking-tight leading-[.95] text-white">
-            I automate the work
-            <span class="gradient-text block">that slows businesses down.</span>
+
+          <h1
+            class="font-display text-5xl sm:text-6xl lg:text-8xl font-bold leading-[.94] tracking-tight text-white"
+          >
+
+            I turn ideas into
+
+            <span class="gradient-text block">
+              intelligent digital systems.
+            </span>
+
           </h1>
 
-          <p class="mt-8 max-w-2xl text-lg sm:text-xl leading-8 text-slate-400">
-            I design practical AI-powered automation systems that reduce repetitive work,
-            connect business tools, improve visibility, and help teams move faster.
+
+          <p
+            class="mt-8 max-w-3xl text-lg sm:text-xl text-gray-400 leading-8"
+          >
+
+            I transform concepts into high-performing digital realities by
+            blending intelligent AI workflows, strategic graphic design,
+            automation, and full-stack prototyping.
+
           </p>
+
+
+          <p
+            class="mt-5 max-w-2xl text-gray-500 leading-7"
+          >
+
+            I build end-to-end solutions designed to streamline operations,
+            reduce repetitive work, improve customer experiences, and help
+            businesses move faster.
+
+          </p>
+
+
+          <!-- PRIMARY HIRING LINKS -->
 
           <div class="mt-10 flex flex-col sm:flex-row flex-wrap gap-3">
 
             <a
-              href="YOUR_ONLINEJOBS_URL_HERE"
+              href="https://www.upwork.com/freelancers/~0110270805ac420e43?mp_source=share"
               target="_blank"
               rel="noopener noreferrer"
-              class="group inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-white text-ink font-bold hover:bg-neon transition"
+              class="inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-white text-dark-950 font-bold hover:bg-neon transition"
             >
-              Hire Me on OnlineJobs.ph
-              <span class="group-hover:translate-x-1 transition">↗</span>
+              Hire Me on Upwork
+              <span>↗</span>
             </a>
 
+
             <a
-              href="YOUR_UPWORK_URL_HERE"
+              href="https://www.onlinejobs.ph/jobseekers/info/1430335"
               target="_blank"
               rel="noopener noreferrer"
               class="inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl bg-electric/15 border border-electric/40 text-white font-semibold hover:bg-electric/25 transition"
             >
-              View My Upwork
+              OnlineJobs.ph Profile
               <span>↗</span>
             </a>
+
 
             <a
-              href="YOUR_LINKEDIN_URL_HERE"
+              href="https://linkedin.com/in/larajoysantos"
               target="_blank"
               rel="noopener noreferrer"
-              class="inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl border border-white/10 text-slate-200 font-semibold hover:bg-white/5 transition"
+              class="inline-flex items-center justify-center gap-3 px-6 py-4 rounded-xl border border-white/10 text-gray-200 font-semibold hover:bg-white/5 transition"
             >
-              Connect on LinkedIn
+              LinkedIn
               <span>↗</span>
             </a>
 
           </div>
 
-          <div class="mt-14 grid grid-cols-2 sm:grid-cols-4 gap-5 max-w-3xl">
+
+          <!-- QUICK STATS -->
+
+          <div
+            class="mt-16 grid grid-cols-2 sm:grid-cols-4 gap-6 max-w-4xl"
+          >
 
             <div>
-              <div class="text-2xl font-bold text-white">AI</div>
-              <div class="text-sm text-slate-500 mt-1">Powered workflows</div>
+              <div class="text-2xl font-display font-bold text-white">
+                AI
+              </div>
+              <div class="text-sm text-gray-500 mt-1">
+                Intelligent workflows
+              </div>
             </div>
 
             <div>
-              <div class="text-2xl font-bold text-white">5+</div>
-              <div class="text-sm text-slate-500 mt-1">Core automation tools</div>
+              <div class="text-2xl font-display font-bold text-white">
+                3+
+              </div>
+              <div class="text-sm text-gray-500 mt-1">
+                Automation platforms
+              </div>
             </div>
 
             <div>
-              <div class="text-2xl font-bold text-white">ROI</div>
-              <div class="text-sm text-slate-500 mt-1">Focused solutions</div>
+              <div class="text-2xl font-display font-bold text-white">
+                End-to-End
+              </div>
+              <div class="text-sm text-gray-500 mt-1">
+                Digital solutions
+              </div>
             </div>
 
             <div>
-              <div class="text-2xl font-bold text-neon">24/7</div>
-              <div class="text-sm text-slate-500 mt-1">Automation mindset</div>
+              <div class="text-2xl font-display font-bold text-neon">
+                ROI
+              </div>
+              <div class="text-sm text-gray-500 mt-1">
+                Outcome focused
+              </div>
             </div>
 
           </div>
 
         </div>
+
       </div>
+
     </section>
 
 
-    <!-- =========================
-         VALUE STRIP
-    ========================== -->
-    <section class="border-y border-white/5 bg-slate-950/80">
-      <div class="max-w-7xl mx-auto px-5 sm:px-8 py-5">
-        <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 text-sm">
-          <span class="text-slate-500">I build systems around measurable business outcomes.</span>
+    <!-- =========================================================
+         INTRO / POSITIONING
+    ========================================================== -->
 
-          <div class="flex flex-wrap gap-x-6 gap-y-2 text-slate-300">
-            <span>→ Less manual work</span>
-            <span>→ Faster response</span>
-            <span>→ Better visibility</span>
-            <span>→ Scalable processes</span>
-          </div>
+    <section class="border-y border-white/5 bg-dark-900/70">
+
+      <div class="max-w-7xl mx-auto px-5 sm:px-8 py-8">
+
+        <div
+          class="flex flex-col lg:flex-row lg:items-center justify-between gap-6"
+        >
+
+          <p class="text-gray-400 max-w-2xl">
+            <span class="text-white font-semibold">
+              Digital Smith.
+            </span>
+
+            AI Automations Specialist. Digital Graphic Designer.
+
+            Building practical systems where technology,
+            creativity, and business operations meet.
+          </p>
+
+
+          <a
+            href="https://github.com/larasaints/automations"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-sm font-semibold text-neon hover:text-white transition"
+          >
+            View Automation Architecture →
+          </a>
+
         </div>
+
       </div>
+
     </section>
 
 
-    <!-- =========================
-         TECH STACK
-    ========================== -->
-    <section id="stack" class="py-24 sm:py-32">
+    <!-- =========================================================
+         CAPABILITIES
+    ========================================================== -->
+
+    <section
+      id="capabilities"
+      class="py-24 sm:py-32"
+    >
+
       <div class="max-w-7xl mx-auto px-5 sm:px-8">
 
-        <div class="max-w-2xl mb-14">
-          <div class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4">
-            Technology Matrix
+        <div class="max-w-3xl mb-14">
+
+          <div
+            class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4"
+          >
+            What I Build
           </div>
 
-          <h2 class="text-4xl sm:text-5xl font-bold text-white">
-            The tools behind the systems.
+          <h2
+            class="font-display text-4xl sm:text-5xl font-bold text-white"
+          >
+            One skill set.
+            <span class="text-gray-500">
+              Multiple digital disciplines.
+            </span>
           </h2>
 
-          <p class="mt-5 text-slate-400 leading-7">
-            I combine automation platforms, AI tools, APIs, and business applications
-            to create workflows that fit real operational needs.
+          <p class="mt-5 text-gray-400 leading-7">
+            My work sits at the intersection of AI, automation,
+            design, development, and interactive digital experiences.
           </p>
+
         </div>
 
-        <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
 
-          <!-- Make -->
-          <div class="glass rounded-2xl p-6 hover:border-purple-400/40 transition">
-            <div class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-400/20 flex items-center justify-center mb-5">
-              <span class="font-bold text-purple-300 text-lg">M</span>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+
+
+          <!-- AI -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-electric/10 border border-electric/20 flex items-center justify-center text-electric font-bold"
+            >
+              AI
             </div>
-            <h3 class="font-bold text-white">Make.com</h3>
-            <p class="text-xs text-slate-500 mt-2">Visual automation</p>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              AI & Large Language Models
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Intelligent workflows and AI-powered decision systems
+              using modern LLM platforms.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">OpenAI API</span>
+              <span class="tag">Claude</span>
+              <span class="tag">Gemini</span>
+              <span class="tag">DeepSeek</span>
+              <span class="tag">Grok</span>
+
+            </div>
+
           </div>
 
-          <!-- Zapier -->
-          <div class="glass rounded-2xl p-6 hover:border-orange-400/40 transition">
-            <div class="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-400/20 flex items-center justify-center mb-5">
-              <span class="font-bold text-orange-300 text-lg">Z</span>
+
+          <!-- AUTOMATION -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-neon/10 border border-neon/20 flex items-center justify-center text-neon font-bold"
+            >
+              ⚡
             </div>
-            <h3 class="font-bold text-white">Zapier</h3>
-            <p class="text-xs text-slate-500 mt-2">Workflow automation</p>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Workflow Automation
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Connected systems that automate repetitive operations,
+              routing, notifications, and business logic.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">Make.com</span>
+              <span class="tag">n8n</span>
+              <span class="tag">Zapier</span>
+              <span class="tag">Webhooks</span>
+
+            </div>
+
           </div>
 
-          <!-- n8n -->
-          <div class="glass rounded-2xl p-6 hover:border-red-400/40 transition">
-            <div class="w-12 h-12 rounded-xl bg-red-500/10 border border-red-400/20 flex items-center justify-center mb-5">
-              <span class="font-bold text-red-300 text-lg">n8n</span>
+
+          <!-- DEVELOPMENT -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-purple-500/10 border border-purple-400/20 flex items-center justify-center text-purple-300 font-bold"
+            >
+              DEV
             </div>
-            <h3 class="font-bold text-white">n8n</h3>
-            <p class="text-xs text-slate-500 mt-2">Advanced workflows</p>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Low-Code & Full-Stack
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Rapid prototyping and production-oriented digital
+              experiences using modern low-code technologies.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">Lovable</span>
+              <span class="tag">Supabase</span>
+              <span class="tag">Web Apps</span>
+              <span class="tag">REST APIs</span>
+
+            </div>
+
           </div>
 
-          <!-- GHL -->
-          <div class="glass rounded-2xl p-6 hover:border-cyan-400/40 transition">
-            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center mb-5">
-              <span class="font-bold text-cyan-300 text-lg">GHL</span>
+
+          <!-- DESIGN -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-pink-500/10 border border-pink-400/20 flex items-center justify-center text-pink-300 font-bold"
+            >
+              UX
             </div>
-            <h3 class="font-bold text-white">GoHighLevel</h3>
-            <p class="text-xs text-slate-500 mt-2">CRM & AI workflows</p>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Digital Design
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Strategic visual systems, digital assets, interfaces,
+              templates, and brand experiences.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">UI Systems</span>
+              <span class="tag">Templates</span>
+              <span class="tag">Brand Identity</span>
+              <span class="tag">Digital Assets</span>
+
+            </div>
+
           </div>
 
-          <!-- GitHub -->
-          <div class="glass rounded-2xl p-6 hover:border-neon/40 transition">
-            <div class="w-12 h-12 rounded-xl bg-neon/10 border border-neon/20 flex items-center justify-center mb-5">
-              <span class="font-bold text-neon text-lg">GH</span>
+
+          <!-- INTERACTIVE -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-orange-500/10 border border-orange-400/20 flex items-center justify-center text-orange-300 font-bold"
+            >
+              GAME
             </div>
-            <h3 class="font-bold text-white">GitHub</h3>
-            <p class="text-xs text-slate-500 mt-2">Portfolio & code</p>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Interactive Media
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Interactive experiences combining logic, game mechanics,
+              visual storytelling, and motion.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">Game Mechanics</span>
+              <span class="tag">Interactive UX</span>
+              <span class="tag">Motion</span>
+              <span class="tag">Video</span>
+
+            </div>
+
+          </div>
+
+
+          <!-- VERSION CONTROL -->
+
+          <div class="glass rounded-3xl p-7">
+
+            <div
+              class="w-12 h-12 rounded-xl bg-gray-500/10 border border-gray-400/20 flex items-center justify-center text-gray-300 font-bold"
+            >
+              GH
+            </div>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Backend & Version Control
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Structured repositories, API integrations, documentation,
+              and maintainable project architecture.
+            </p>
+
+            <div class="mt-5 flex flex-wrap gap-2">
+
+              <span class="tag">GitHub</span>
+              <span class="tag">REST APIs</span>
+              <span class="tag">Documentation</span>
+              <span class="tag">Architecture</span>
+
+            </div>
+
           </div>
 
         </div>
 
       </div>
+
     </section>
 
 
-    <!-- =========================
-         CASE STUDIES
-    ========================== -->
-    <section id="work" class="py-24 sm:py-32 bg-slate-950/70 border-y border-white/5">
+    <!-- =========================================================
+         TECH STACK
+    ========================================================== -->
+
+    <section
+      id="stack"
+      class="py-24 sm:py-32 bg-dark-900/60 border-y border-white/5"
+    >
+
       <div class="max-w-7xl mx-auto px-5 sm:px-8">
 
-        <div class="flex flex-col lg:flex-row lg:items-end justify-between gap-8 mb-14">
-          <div class="max-w-3xl">
-            <div class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4">
-              Selected Proof of Work
+        <div class="flex flex-col md:flex-row md:items-end justify-between gap-6 mb-12">
+
+          <div>
+
+            <div
+              class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4"
+            >
+              Technology Matrix
             </div>
 
             <h2 class="text-4xl sm:text-5xl font-bold text-white">
-              Automation systems built to solve real problems.
+              Tools I work with.
             </h2>
 
-            <p class="mt-5 text-slate-400 leading-7">
-              Explore workflow architecture, business logic, and implementation through
-              screenshots and walkthroughs.
-            </p>
           </div>
 
-          <a
-            href="YOUR_GITHUB_URL_HERE"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="shrink-0 inline-flex items-center gap-2 text-sm font-semibold text-white hover:text-neon transition"
-          >
-            Explore GitHub Portfolio ↗
-          </a>
+          <p class="text-gray-500 max-w-md leading-6">
+            The platform is only part of the solution. I focus on
+            selecting the right technology for the business problem.
+          </p>
+
         </div>
 
 
-        <!-- =========================
-             PROJECT 01
-        ========================== -->
-        <article class="project-card glass rounded-3xl overflow-hidden mb-8">
+        <div class="flex flex-wrap gap-3">
 
-          <div class="grid lg:grid-cols-2">
+          <span class="tech">OpenAI API</span>
+          <span class="tech">Claude</span>
+          <span class="tech">Gemini AI</span>
+          <span class="tech">DeepSeek</span>
+          <span class="tech">Grok</span>
 
-            <div class="p-7 sm:p-10">
-              <div class="flex items-center justify-between gap-4 mb-8">
-                <span class="text-xs font-bold uppercase tracking-[.18em] text-electric">
-                  Case Study 01
-                </span>
+          <span class="tech">Make.com</span>
+          <span class="tech">n8n</span>
+          <span class="tech">Zapier</span>
 
-                <span class="px-3 py-1.5 rounded-full bg-neon/10 text-neon text-xs font-semibold">
-                  Zapier
-                </span>
-              </div>
+          <span class="tech">GoHighLevel</span>
 
-              <h3 class="text-3xl font-bold text-white">
-                UrbanBite Franchise Compliance Automation
-              </h3>
+          <span class="tech">Lovable</span>
+          <span class="tech">Supabase</span>
 
-              <div class="mt-8 space-y-6">
+          <span class="tech">Google Sheets</span>
+          <span class="tech">Airtable</span>
+          <span class="tech">Gmail</span>
 
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Problem
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    Franchise compliance information was difficult to monitor manually,
-                    especially when issues, overdue actions, and document expirations
-                    needed follow-up.
-                  </p>
-                </div>
+          <span class="tech">Webhooks</span>
+          <span class="tech">REST APIs</span>
+          <span class="tech">GitHub</span>
 
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Solution
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    Designed a connected automation system using forms, Google Sheets,
-                    scheduled monitoring, issue tracking, escalation, and consolidated
-                    email alerts.
-                  </p>
-                </div>
+          <span class="tech">UI Design</span>
+          <span class="tech">Motion Graphics</span>
+          <span class="tech">Digital Products</span>
 
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Impact
-                  </div>
-                  <p class="text-sm leading-6 text-slate-300">
-                    Created a centralized compliance workflow that improves visibility
-                    and reduces repetitive manual monitoring.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-
-            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
-
-              <!-- SCREENSHOT PLACEHOLDER -->
-              <div class="workflow-placeholder rounded-2xl overflow-hidden aspect-video border border-white/10 relative">
-
-                <!-- Replace this entire div with your screenshot -->
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                  <div class="w-14 h-14 rounded-2xl bg-electric/10 border border-electric/20 flex items-center justify-center mb-4">
-                    <span class="text-electric text-xl">⌘</span>
-                  </div>
-
-                  <div class="text-white font-semibold">
-                    Workflow Screenshot
-                  </div>
-
-                  <div class="text-xs text-slate-500 mt-2">
-                    Replace with high-resolution workflow image
-                  </div>
-                </div>
-
-              </div>
-
-
-              <!-- LOOM PLACEHOLDER -->
-              <div class="mt-5 rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video relative">
-
-                <!-- Replace iframe src with your Loom embed URL -->
-                <iframe
-                  class="w-full h-full"
-                  src="YOUR_URBANBITE_LOOM_EMBED_URL_HERE"
-                  title="UrbanBite Automation Walkthrough"
-                  allow="fullscreen"
-                  loading="lazy"
-                ></iframe>
-
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-
-        <!-- =========================
-             PROJECT 02
-        ========================== -->
-        <article class="project-card glass rounded-3xl overflow-hidden mb-8">
-
-          <div class="grid lg:grid-cols-2">
-
-            <div class="p-7 sm:p-10">
-
-              <div class="flex items-center justify-between gap-4 mb-8">
-                <span class="text-xs font-bold uppercase tracking-[.18em] text-electric">
-                  Case Study 02
-                </span>
-
-                <span class="px-3 py-1.5 rounded-full bg-orange-500/10 text-orange-300 text-xs font-semibold">
-                  n8n
-                </span>
-              </div>
-
-              <h3 class="text-3xl font-bold text-white">
-                AI Customer Support Automation
-              </h3>
-
-              <div class="mt-8 space-y-6">
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Problem
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    Customer support requests can require repetitive classification,
-                    routing, and response preparation before the right action is taken.
-                  </p>
-                </div>
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Solution
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    Built an AI-assisted workflow that receives support data, interprets
-                    the request, structures the information, and routes it through
-                    automated logic.
-                  </p>
-                </div>
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Impact
-                  </div>
-                  <p class="text-sm leading-6 text-slate-300">
-                    Demonstrates how AI can handle repetitive decision-making while
-                    keeping workflow outputs structured and actionable.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-
-            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
-
-              <div class="workflow-placeholder rounded-2xl overflow-hidden aspect-video border border-white/10 relative">
-
-                <!-- Replace with your screenshot -->
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                  <div class="w-14 h-14 rounded-2xl bg-neon/10 border border-neon/20 flex items-center justify-center mb-4">
-                    <span class="text-neon text-xl">AI</span>
-                  </div>
-
-                  <div class="text-white font-semibold">
-                    Workflow Screenshot
-                  </div>
-
-                  <div class="text-xs text-slate-500 mt-2">
-                    Replace with high-resolution workflow image
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="mt-5 rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video">
-
-                <!-- Replace with Loom embed -->
-                <iframe
-                  class="w-full h-full"
-                  src="YOUR_AI_SUPPORT_LOOM_EMBED_URL_HERE"
-                  title="AI Customer Support Automation Walkthrough"
-                  allow="fullscreen"
-                  loading="lazy"
-                ></iframe>
-
-              </div>
-
-            </div>
-
-          </div>
-        </article>
-
-
-        <!-- =========================
-             PROJECT 03
-        ========================== -->
-        <article class="project-card glass rounded-3xl overflow-hidden">
-
-          <div class="grid lg:grid-cols-2">
-
-            <div class="p-7 sm:p-10">
-
-              <div class="flex items-center justify-between gap-4 mb-8">
-                <span class="text-xs font-bold uppercase tracking-[.18em] text-electric">
-                  Case Study 03
-                </span>
-
-                <span class="px-3 py-1.5 rounded-full bg-cyan-500/10 text-cyan-300 text-xs font-semibold">
-                  GoHighLevel
-                </span>
-              </div>
-
-              <h3 class="text-3xl font-bold text-white">
-                AI Real Estate Lead Qualification
-              </h3>
-
-              <div class="mt-8 space-y-6">
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Problem
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    New real estate leads need fast responses and consistent qualification
-                    before sales teams spend time on follow-up.
-                  </p>
-                </div>
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Solution
-                  </div>
-                  <p class="text-sm leading-6 text-slate-400">
-                    Designed an AI-driven conversation flow that qualifies prospects
-                    through natural conversation and routes information into the CRM.
-                  </p>
-                </div>
-
-                <div>
-                  <div class="text-xs uppercase tracking-[.15em] text-slate-500 font-bold mb-2">
-                    Impact
-                  </div>
-                  <p class="text-sm leading-6 text-slate-300">
-                    Creates a faster and more consistent lead qualification experience
-                    while reducing repetitive initial conversations for sales teams.
-                  </p>
-                </div>
-
-              </div>
-            </div>
-
-
-            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
-
-              <div class="workflow-placeholder rounded-2xl overflow-hidden aspect-video border border-white/10 relative">
-
-                <!-- Replace with your screenshot -->
-                <div class="absolute inset-0 flex flex-col items-center justify-center text-center p-6">
-                  <div class="w-14 h-14 rounded-2xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center mb-4">
-                    <span class="text-cyan-300 text-sm font-bold">GHL</span>
-                  </div>
-
-                  <div class="text-white font-semibold">
-                    Workflow Screenshot
-                  </div>
-
-                  <div class="text-xs text-slate-500 mt-2">
-                    Replace with high-resolution workflow image
-                  </div>
-                </div>
-
-              </div>
-
-              <div class="mt-5 rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video">
-
-                <!-- Replace with Loom embed -->
-                <iframe
-                  class="w-full h-full"
-                  src="YOUR_GHL_LOOM_EMBED_URL_HERE"
-                  title="AI Real Estate Lead Qualification Walkthrough"
-                  allow="fullscreen"
-                  loading="lazy"
-                ></iframe>
-
-              </div>
-
-            </div>
-
-          </div>
-        </article>
+        </div>
 
       </div>
+
     </section>
 
 
-    <!-- =========================
-         HOW I THINK
-    ========================== -->
-    <section class="py-24 sm:py-32">
+    <!-- =========================================================
+         FEATURED WORK
+    ========================================================== -->
+
+    <section id="work" class="py-24 sm:py-32">
+
       <div class="max-w-7xl mx-auto px-5 sm:px-8">
 
-        <div class="grid lg:grid-cols-3 gap-6">
 
-          <div class="lg:col-span-2 glass rounded-3xl p-8 sm:p-10">
-            <div class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-5">
-              My Approach
+        <div class="max-w-3xl mb-14">
+
+          <div
+            class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4"
+          >
+            Featured Work
+          </div>
+
+          <h2 class="text-4xl sm:text-5xl font-bold text-white">
+            Proof of work,
+            <span class="text-gray-500">
+              not just promises.
+            </span>
+          </h2>
+
+          <p class="mt-5 text-gray-400 leading-7">
+            Explore the architecture, workflows, business logic,
+            and product thinking behind selected projects.
+          </p>
+
+        </div>
+
+
+        <!-- =====================================================
+             URBANBITE
+        ====================================================== -->
+
+        <article
+          class="project-card glass rounded-[2rem] overflow-hidden mb-8"
+        >
+
+          <div class="grid lg:grid-cols-2">
+
+            <div class="p-7 sm:p-10">
+
+              <div class="flex items-center justify-between mb-8">
+
+                <span
+                  class="text-xs uppercase tracking-[.18em] font-bold text-electric"
+                >
+                  Automation • Zapier
+                </span>
+
+                <span
+                  class="px-3 py-1.5 rounded-full bg-neon/10 text-neon text-xs font-semibold"
+                >
+                  5-Zap System
+                </span>
+
+              </div>
+
+
+              <h3 class="text-3xl sm:text-4xl font-bold text-white">
+                UrbanBite
+              </h3>
+
+              <p class="mt-2 text-lg text-gray-400">
+                Multi-Zap Franchise Operations & Compliance Automation Engine
+              </p>
+
+
+              <div class="mt-8 space-y-6">
+
+                <div>
+
+                  <div class="label">
+                    THE PROBLEM
+                  </div>
+
+                  <p class="description">
+                    Managing franchise operations across multiple locations
+                    manually creates operational bottlenecks. Inspection results,
+                    expiring permits, overdue issues, and missing monthly reports
+                    require constant manual monitoring.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    THE SOLUTION
+                  </div>
+
+                  <p class="description">
+                    A centralized multi-Zap automation architecture that captures
+                    submissions, updates tracking databases, monitors deadlines,
+                    triggers escalations, and feeds operational visibility into
+                    a centralized system.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    ENGINEERING HIGHLIGHTS
+                  </div>
+
+                  <div class="flex flex-wrap gap-2 mt-3">
+
+                    <span class="mini-tag">
+                      5 interconnected Zaps
+                    </span>
+
+                    <span class="mini-tag">
+                      Google Sheets data layer
+                    </span>
+
+                    <span class="mini-tag">
+                      Scheduled monitoring
+                    </span>
+
+                    <span class="mini-tag">
+                      Escalation logic
+                    </span>
+
+                    <span class="mini-tag">
+                      Deadline tracking
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="mt-9 flex flex-wrap gap-3">
+
+                <a
+                  href="https://github.com/larasaints/automations/tree/3d7f0d567d97089b5b73bd3d5d5b388590732851/urbanbite-franchise-compliance"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button-secondary"
+                >
+                  Repository & Architecture ↗
+                </a>
+
+                <a
+                  href="https://www.loom.com/share/465b4946e5f7434ba5092fd0746fdb20"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button-primary"
+                >
+                  Watch Loom Demo ↗
+                </a>
+
+              </div>
+
             </div>
 
-            <h2 class="text-3xl sm:text-4xl font-bold text-white max-w-2xl">
-              I don't automate for the sake of automation.
+
+            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
+
+              <!-- Replace this with your actual workflow screenshot -->
+
+              <div
+                class="workflow-frame rounded-2xl aspect-video border border-white/10 flex items-center justify-center text-center p-6"
+              >
+
+                <div>
+
+                  <div
+                    class="mx-auto w-16 h-16 rounded-2xl bg-electric/10 border border-electric/20 flex items-center justify-center text-electric font-bold text-xl"
+                  >
+                    5×
+                  </div>
+
+                  <div class="mt-5 text-white font-semibold">
+                    UrbanBite Workflow Architecture
+                  </div>
+
+                  <div class="mt-2 text-xs text-gray-500">
+                    Replace with high-resolution workflow screenshot
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <!-- LOOM PREVIEW -->
+
+              <a
+                href="https://www.loom.com/share/465b4946e5f7434ba5092fd0746fdb20"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block mt-5 rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video group"
+              >
+
+                <div
+                  class="w-full h-full flex items-center justify-center bg-gradient-to-br from-electric/10 to-neon/5"
+                >
+
+                  <div class="text-center">
+
+                    <div
+                      class="mx-auto w-14 h-14 rounded-full bg-white text-dark-950 flex items-center justify-center text-xl group-hover:bg-neon transition"
+                    >
+                      ▶
+                    </div>
+
+                    <div class="mt-4 text-white font-semibold">
+                      Watch Workflow Walkthrough
+                    </div>
+
+                    <div class="text-xs text-gray-500 mt-1">
+                      Loom demonstration
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- =====================================================
+             AI CUSTOMER SUPPORT
+        ====================================================== -->
+
+        <article
+          class="project-card glass rounded-[2rem] overflow-hidden mb-8"
+        >
+
+          <div class="grid lg:grid-cols-2">
+
+            <div class="p-7 sm:p-10">
+
+              <div class="flex items-center justify-between mb-8">
+
+                <span
+                  class="text-xs uppercase tracking-[.18em] font-bold text-electric"
+                >
+                  AI Automation • n8n
+                </span>
+
+                <span
+                  class="px-3 py-1.5 rounded-full bg-orange-500/10 text-orange-300 text-xs font-semibold"
+                >
+                  Gemini AI
+                </span>
+
+              </div>
+
+
+              <h3 class="text-3xl sm:text-4xl font-bold text-white">
+                AI Customer Support
+              </h3>
+
+              <p class="mt-2 text-lg text-gray-400">
+                Intelligent Ticket Triage Engine
+              </p>
+
+
+              <div class="mt-8 space-y-6">
+
+                <div>
+
+                  <div class="label">
+                    THE PROBLEM
+                  </div>
+
+                  <p class="description">
+                    Support teams spend significant time reading requests,
+                    categorizing issues, creating tickets, drafting responses,
+                    and identifying cases that require escalation.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    THE SOLUTION
+                  </div>
+
+                  <p class="description">
+                    Built an AI-assisted support intake and triage workflow
+                    using n8n and Google Gemini that receives requests,
+                    checks duplicates, classifies issues, generates responses,
+                    logs structured ticket data, and routes sensitive cases
+                    for human review.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    AI & AUTOMATION LOGIC
+                  </div>
+
+                  <div class="flex flex-wrap gap-2 mt-3">
+
+                    <span class="mini-tag">AI Classification</span>
+                    <span class="mini-tag">Confidence Scoring</span>
+                    <span class="mini-tag">Human Escalation</span>
+                    <span class="mini-tag">Airtable</span>
+                    <span class="mini-tag">Duplicate Prevention</span>
+                    <span class="mini-tag">Error Workflow</span>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="mt-9 flex flex-wrap gap-3">
+
+                <a
+                  href="https://github.com/larasaints/automations/tree/main/ai-customer-support-automation"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button-secondary"
+                >
+                  Repository & Testing ↗
+                </a>
+
+                <a
+                  href="https://www.loom.com/share/cef927cb92fa497eac2138751f16213b"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button-primary"
+                >
+                  Watch Loom Demo ↗
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
+
+              <div
+                class="workflow-frame rounded-2xl aspect-video border border-white/10 flex items-center justify-center text-center p-6"
+              >
+
+                <div>
+
+                  <div
+                    class="mx-auto w-16 h-16 rounded-2xl bg-orange-500/10 border border-orange-400/20 flex items-center justify-center text-orange-300 font-bold"
+                  >
+                    AI
+                  </div>
+
+                  <div class="mt-5 text-white font-semibold">
+                    AI Ticket Triage Workflow
+                  </div>
+
+                  <div class="mt-2 text-xs text-gray-500">
+                    Replace with workflow screenshot
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <a
+                href="https://www.loom.com/share/cef927cb92fa497eac2138751f16213b"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block mt-5 rounded-2xl overflow-hidden border border-white/10 bg-black aspect-video group"
+              >
+
+                <div
+                  class="w-full h-full flex items-center justify-center bg-gradient-to-br from-orange-500/10 to-electric/5"
+                >
+
+                  <div class="text-center">
+
+                    <div
+                      class="mx-auto w-14 h-14 rounded-full bg-white text-dark-950 flex items-center justify-center text-xl group-hover:bg-neon transition"
+                    >
+                      ▶
+                    </div>
+
+                    <div class="mt-4 text-white font-semibold">
+                      Watch Workflow Walkthrough
+                    </div>
+
+                    <div class="text-xs text-gray-500 mt-1">
+                      Loom demonstration
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- =====================================================
+             FACEBOOK LEADS
+        ====================================================== -->
+
+        <article
+          class="project-card glass rounded-[2rem] overflow-hidden"
+        >
+
+          <div class="grid lg:grid-cols-2">
+
+            <div class="p-7 sm:p-10">
+
+              <div class="flex items-center justify-between mb-8">
+
+                <span
+                  class="text-xs uppercase tracking-[.18em] font-bold text-electric"
+                >
+                  AI Lead Automation • Make
+                </span>
+
+                <span
+                  class="px-3 py-1.5 rounded-full bg-purple-500/10 text-purple-300 text-xs font-semibold"
+                >
+                  Gemini AI
+                </span>
+
+              </div>
+
+
+              <h3 class="text-3xl sm:text-4xl font-bold text-white">
+                Hands-Free Facebook Leads
+              </h3>
+
+              <p class="mt-2 text-lg text-gray-400">
+                AI-Powered Real Estate Lead Automation Engine
+              </p>
+
+
+              <div class="mt-8 space-y-6">
+
+                <div>
+
+                  <div class="label">
+                    THE PROBLEM
+                  </div>
+
+                  <p class="description">
+                    Real estate leads can lose value quickly when responses
+                    are delayed. Manual follow-ups also create inconsistent
+                    communication and scheduling conflicts.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    THE SOLUTION
+                  </div>
+
+                  <p class="description">
+                    A real-time event-driven pipeline built with Make.com
+                    and Gemini AI that captures Facebook Lead Ads data,
+                    routes prospects based on property choice, logs records,
+                    checks calendar availability, and prepares personalized
+                    property proposals.
+                  </p>
+
+                </div>
+
+
+                <div>
+
+                  <div class="label">
+                    ENGINEERING HIGHLIGHTS
+                  </div>
+
+                  <div class="flex flex-wrap gap-2 mt-3">
+
+                    <span class="mini-tag">
+                      Sub-2-minute response
+                    </span>
+
+                    <span class="mini-tag">
+                      Webhook capture
+                    </span>
+
+                    <span class="mini-tag">
+                      AI processing
+                    </span>
+
+                    <span class="mini-tag">
+                      Multi-path routing
+                    </span>
+
+                    <span class="mini-tag">
+                      Retry guards
+                    </span>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+
+              <div class="mt-9">
+
+                <a
+                  href="https://github.com/larasaints/automations/tree/685be2abc4566d5416047f93122ac4efc501d67e/facebook-leads-gemini-ai-handsfree-engine"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="button-secondary"
+                >
+                  View Documentation & Architecture ↗
+                </a>
+
+              </div>
+
+            </div>
+
+
+            <div class="border-t lg:border-t-0 lg:border-l border-white/5 p-5 sm:p-7">
+
+              <div
+                class="workflow-frame rounded-2xl aspect-video border border-white/10 flex items-center justify-center text-center p-6"
+              >
+
+                <div>
+
+                  <div
+                    class="mx-auto w-16 h-16 rounded-2xl bg-purple-500/10 border border-purple-400/20 flex items-center justify-center text-purple-300 font-bold"
+                  >
+                    FB
+                  </div>
+
+                  <div class="mt-5 text-white font-semibold">
+                    Facebook Lead Automation
+                  </div>
+
+                  <div class="mt-2 text-xs text-gray-500">
+                    Replace with workflow screenshot
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </article>
+
+
+        <!-- AUTOMATION REPOSITORY -->
+
+        <div
+          class="mt-8 rounded-3xl border border-electric/20 bg-electric/5 p-7 sm:p-9 flex flex-col md:flex-row md:items-center justify-between gap-6"
+        >
+
+          <div>
+
+            <div
+              class="text-xs uppercase tracking-[.18em] text-electric font-bold"
+            >
+              Full Automation Portfolio
+            </div>
+
+            <h3 class="mt-3 text-2xl font-bold text-white">
+              Explore all automation projects and workflow breakdowns.
+            </h3>
+
+          </div>
+
+
+          <a
+            href="https://github.com/larasaints/automations"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="shrink-0 inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl bg-white text-dark-950 font-bold hover:bg-neon transition"
+          >
+            View GitHub Repository ↗
+          </a>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         KITCHEN DECK
+    ========================================================== -->
+
+    <section
+      class="py-24 sm:py-32 bg-dark-900/70 border-y border-white/5"
+    >
+
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+
+        <div class="grid lg:grid-cols-2 gap-12 items-center">
+
+
+          <div>
+
+            <div
+              class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4"
+            >
+              Digital Product • Interactive Web App
+            </div>
+
+            <h2 class="text-4xl sm:text-5xl font-bold text-white">
+              The Kitchen Deck
             </h2>
 
-            <p class="mt-5 max-w-2xl text-slate-400 leading-7">
-              I start with the business problem, map the process, identify repetitive
-              decisions, then build an automation that is practical, maintainable,
-              and easy to understand.
+            <p class="mt-4 text-xl text-gray-400">
+              A mobile-responsive gamified sports training experience.
             </p>
+
+
+            <div class="mt-8 space-y-7">
+
+              <div>
+
+                <div class="label">
+                  THE PROBLEM
+                </div>
+
+                <p class="description">
+                  Traditional sports training can suffer from cognitive overload
+                  and weak feedback loops. Players need to remember complex
+                  drills, scoring rules, target zones, and progress without
+                  receiving meaningful immediate feedback.
+                </p>
+
+              </div>
+
+
+              <div>
+
+                <div class="label">
+                  THE SOLUTION
+                </div>
+
+                <p class="description">
+                  A high-contrast, touch-optimized visual engine that transforms
+                  sports drills into gamified digital cards with visual frameworks,
+                  XP counters, missions, challenges, and progression mechanics.
+                </p>
+
+              </div>
+
+
+              <div>
+
+                <div class="label">
+                  PRODUCT THINKING
+                </div>
+
+                <div class="flex flex-wrap gap-2 mt-3">
+
+                  <span class="mini-tag">
+                    Mobile-first UX
+                  </span>
+
+                  <span class="mini-tag">
+                    Gamification
+                  </span>
+
+                  <span class="mini-tag">
+                    Interactive Cards
+                  </span>
+
+                  <span class="mini-tag">
+                    Progression Systems
+                  </span>
+
+                  <span class="mini-tag">
+                    Visual Design
+                  </span>
+
+                </div>
+
+              </div>
+
+            </div>
+
           </div>
 
-          <div class="glass rounded-3xl p-8 sm:p-10">
-            <div class="text-5xl font-bold text-electric">01</div>
-            <h3 class="mt-6 text-xl font-bold text-white">Map</h3>
-            <p class="mt-3 text-sm text-slate-500 leading-6">
-              Understand the current process and identify where time is being lost.
-            </p>
+
+          <div
+            class="workflow-frame rounded-[2rem] border border-white/10 aspect-[4/3] flex items-center justify-center text-center p-8"
+          >
+
+            <div>
+
+              <div
+                class="mx-auto w-20 h-20 rounded-3xl bg-neon/10 border border-neon/20 flex items-center justify-center text-neon text-2xl"
+              >
+                🏓
+              </div>
+
+              <div class="mt-6 text-2xl font-bold text-white">
+                The Kitchen Deck
+              </div>
+
+              <p class="mt-3 text-sm text-gray-500 max-w-sm">
+                Replace this area with your product screenshot,
+                mockup, or live product preview.
+              </p>
+
+            </div>
+
           </div>
 
-          <div class="glass rounded-3xl p-8 sm:p-10">
-            <div class="text-5xl font-bold text-electric">02</div>
-            <h3 class="mt-6 text-xl font-bold text-white">Automate</h3>
-            <p class="mt-3 text-sm text-slate-500 leading-6">
-              Connect tools, data, AI, and business logic into a reliable workflow.
-            </p>
+        </div>
+
+
+        <div
+          class="mt-10 p-5 rounded-2xl border border-white/5 bg-black/20 text-xs text-gray-600"
+        >
+
+          <strong class="text-gray-500">
+            Intellectual Property Notice:
+          </strong>
+
+          Source code, database structures, custom visual card templates,
+          and corporate branding are proprietary and hosted privately.
+          Public demonstration is provided for portfolio, recruitment,
+          and educational review purposes only.
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================================================
+         WORKFLOW MINDSET
+    ========================================================== -->
+
+    <section class="py-24 sm:py-32">
+
+      <div class="max-w-7xl mx-auto px-5 sm:px-8">
+
+        <div class="max-w-3xl mb-14">
+
+          <div
+            class="text-neon text-xs font-bold uppercase tracking-[.2em] mb-4"
+          >
+            How I Think
           </div>
 
-          <div class="glass rounded-3xl p-8 sm:p-10">
-            <div class="text-5xl font-bold text-electric">03</div>
-            <h3 class="mt-6 text-xl font-bold text-white">Optimize</h3>
-            <p class="mt-3 text-sm text-slate-500 leading-6">
-              Test, refine, document, and improve the system around the actual outcome.
+          <h2 class="text-4xl sm:text-5xl font-bold text-white">
+            Technology is the tool.
+            <span class="text-gray-500">
+              The outcome is the goal.
+            </span>
+          </h2>
+
+        </div>
+
+
+        <div class="grid md:grid-cols-4 gap-4">
+
+
+          <div class="glass rounded-3xl p-7">
+
+            <div class="text-4xl font-display font-bold text-electric">
+              01
+            </div>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Understand
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Identify the real business problem before choosing a tool.
             </p>
+
           </div>
 
-          <div class="glass rounded-3xl p-8 sm:p-10 border-neon/20">
-            <div class="text-5xl font-bold text-neon">→</div>
-            <h3 class="mt-6 text-xl font-bold text-white">Business Impact</h3>
-            <p class="mt-3 text-sm text-slate-500 leading-6">
-              Less manual work. Faster execution. Better visibility. More scalable operations.
+
+          <div class="glass rounded-3xl p-7">
+
+            <div class="text-4xl font-display font-bold text-electric">
+              02
+            </div>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Architect
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Map the data, logic, integrations, and human decision points.
             </p>
+
+          </div>
+
+
+          <div class="glass rounded-3xl p-7">
+
+            <div class="text-4xl font-display font-bold text-electric">
+              03
+            </div>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Build
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Connect automation, AI, APIs, databases, and interfaces.
+            </p>
+
+          </div>
+
+
+          <div
+            class="glass rounded-3xl p-7 border-neon/20"
+          >
+
+            <div class="text-4xl font-display font-bold text-neon">
+              04
+            </div>
+
+            <h3 class="mt-6 text-xl font-bold text-white">
+              Optimize
+            </h3>
+
+            <p class="mt-3 text-sm text-gray-500 leading-6">
+              Test, refine, document, and improve around measurable outcomes.
+            </p>
+
           </div>
 
         </div>
 
       </div>
+
     </section>
 
 
-    <!-- =========================
+    <!-- =========================================================
          HIRE ME HUB
-    ========================== -->
-    <section id="hire" class="py-24 sm:py-32 relative overflow-hidden">
+    ========================================================== -->
 
-      <div class="absolute inset-0 grid-bg opacity-50"></div>
+    <section
+      id="contact"
+      class="py-24 sm:py-32 relative overflow-hidden"
+    >
 
-      <div class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] rounded-full bg-electric/10 blur-[120px] pointer-events-none"></div>
+      <div class="absolute inset-0 grid-bg opacity-60"></div>
 
-      <div class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10">
+      <div
+        class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-[650px] h-[650px] rounded-full bg-electric/10 blur-[130px]"
+      ></div>
 
-        <div class="glass rounded-[2rem] p-7 sm:p-12 lg:p-16 text-center border-electric/20 shadow-glow">
 
-          <div class="inline-flex items-center gap-2 px-3 py-2 rounded-full bg-neon/5 border border-neon/20 text-neon text-xs font-bold uppercase tracking-[.18em] mb-7">
-            Let's work together
+      <div
+        class="max-w-6xl mx-auto px-5 sm:px-8 relative z-10"
+      >
+
+        <div
+          class="glass rounded-[2rem] p-7 sm:p-12 lg:p-16 border-electric/20 shadow-glow"
+        >
+
+          <div class="text-center">
+
+            <div
+              class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-neon/5 border border-neon/20 text-neon text-xs font-bold uppercase tracking-[.18em]"
+            >
+
+              <span
+                class="w-2 h-2 rounded-full bg-neon"
+              ></span>
+
+              Open to opportunities
+
+            </div>
+
+
+            <h2
+              class="mt-7 text-4xl sm:text-5xl lg:text-6xl font-bold text-white"
+            >
+
+              Let's build something
+
+              <span class="gradient-text">
+                intelligent.
+              </span>
+
+            </h2>
+
+
+            <p
+              class="mt-6 max-w-2xl mx-auto text-gray-400 text-lg leading-7"
+            >
+
+              Whether you're looking for an AI automation specialist,
+              digital solutions builder, or someone who can bridge
+              technology and creative execution, let's connect.
+
+            </p>
+
           </div>
 
-          <h2 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-white max-w-4xl mx-auto leading-tight">
-            Need someone who can
-            <span class="gradient-text">build the system?</span>
-          </h2>
 
-          <p class="mt-6 max-w-2xl mx-auto text-slate-400 text-lg leading-7">
-            Whether you're hiring an automation specialist, building an AI workflow,
-            or looking to eliminate repetitive operations, let's connect.
-          </p>
+          <!-- CONTACT -->
+
+          <div class="mt-12 text-center">
+
+            <a
+              href="mailto:lrjoysantos@gmail.com"
+              class="inline-flex items-center gap-3 text-lg font-semibold text-white hover:text-neon transition"
+            >
+              📧 lrjoysantos@gmail.com
+            </a>
+
+          </div>
 
 
           <!-- PROFILE CARDS -->
-          <div class="grid md:grid-cols-3 gap-4 mt-12 text-left">
 
-            <!-- OnlineJobs -->
+          <div class="grid md:grid-cols-3 gap-4 mt-12">
+
+
+            <!-- UPWORK -->
+
             <a
-              href="YOUR_ONLINEJOBS_URL_HERE"
+              href="https://www.upwork.com/freelancers/~0110270805ac420e43?mp_source=share"
               target="_blank"
               rel="noopener noreferrer"
-              class="social-card rounded-2xl border border-white/10 bg-white/[.025] p-6 group"
+              class="profile-card rounded-2xl border border-white/10 bg-white/[.02] p-6"
             >
+
               <div class="flex items-center justify-between">
-                <div class="w-12 h-12 rounded-xl bg-neon/10 border border-neon/20 flex items-center justify-center">
-                  <span class="text-neon font-bold">OJ</span>
+
+                <div
+                  class="w-12 h-12 rounded-xl bg-electric/10 border border-electric/20 flex items-center justify-center text-electric font-bold"
+                >
+                  UP
                 </div>
-                <span class="text-slate-500 group-hover:text-neon transition">↗</span>
-              </div>
 
-              <h3 class="mt-6 text-xl font-bold text-white">
-                OnlineJobs.ph
-              </h3>
+                <span class="text-gray-600">
+                  ↗
+                </span>
 
-              <p class="mt-2 text-sm text-slate-500">
-                Hire me for remote automation projects and long-term roles.
-              </p>
-
-              <div class="mt-6 text-sm font-semibold text-neon">
-                View Profile →
-              </div>
-            </a>
-
-
-            <!-- Upwork -->
-            <a
-              href="YOUR_UPWORK_URL_HERE"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="social-card rounded-2xl border border-white/10 bg-white/[.025] p-6 group"
-            >
-              <div class="flex items-center justify-between">
-                <div class="w-12 h-12 rounded-xl bg-electric/10 border border-electric/20 flex items-center justify-center">
-                  <span class="text-electric font-bold">UP</span>
-                </div>
-                <span class="text-slate-500 group-hover:text-neon transition">↗</span>
               </div>
 
               <h3 class="mt-6 text-xl font-bold text-white">
                 Upwork
               </h3>
 
-              <p class="mt-2 text-sm text-slate-500">
-                View my professional profile and automation work.
+              <p class="mt-2 text-sm text-gray-500">
+                Hire me for automation projects, AI workflows,
+                and digital solutions.
+              </p>
+
+              <div class="mt-6 text-sm font-semibold text-neon">
+                Hire Me on Upwork →
+              </div>
+
+            </a>
+
+
+            <!-- ONLINEJOBS -->
+
+            <a
+              href="https://www.onlinejobs.ph/jobseekers/info/1430335"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="profile-card rounded-2xl border border-white/10 bg-white/[.02] p-6"
+            >
+
+              <div class="flex items-center justify-between">
+
+                <div
+                  class="w-12 h-12 rounded-xl bg-neon/10 border border-neon/20 flex items-center justify-center text-neon font-bold"
+                >
+                  OJ
+                </div>
+
+                <span class="text-gray-600">
+                  ↗
+                </span>
+
+              </div>
+
+              <h3 class="mt-6 text-xl font-bold text-white">
+                OnlineJobs.ph
+              </h3>
+
+              <p class="mt-2 text-sm text-gray-500">
+                View my professional credentials and work profile.
               </p>
 
               <div class="mt-6 text-sm font-semibold text-neon">
                 View Profile →
               </div>
+
             </a>
 
 
-            <!-- LinkedIn -->
+            <!-- LINKEDIN -->
+
             <a
-              href="YOUR_LINKEDIN_URL_HERE"
+              href="https://linkedin.com/in/larajoysantos"
               target="_blank"
               rel="noopener noreferrer"
-              class="social-card rounded-2xl border border-white/10 bg-white/[.025] p-6 group"
+              class="profile-card rounded-2xl border border-white/10 bg-white/[.02] p-6"
             >
+
               <div class="flex items-center justify-between">
-                <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center">
-                  <span class="text-cyan-300 font-bold">in</span>
+
+                <div
+                  class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-400/20 flex items-center justify-center text-cyan-300 font-bold"
+                >
+                  in
                 </div>
-                <span class="text-slate-500 group-hover:text-neon transition">↗</span>
+
+                <span class="text-gray-600">
+                  ↗
+                </span>
+
               </div>
 
               <h3 class="mt-6 text-xl font-bold text-white">
                 LinkedIn
               </h3>
 
-              <p class="mt-2 text-sm text-slate-500">
-                Connect with me for opportunities, collaborations, and hiring.
+              <p class="mt-2 text-sm text-gray-500">
+                Connect for professional opportunities,
+                collaborations, and hiring.
               </p>
 
               <div class="mt-6 text-sm font-semibold text-neon">
-                Connect →
+                Connect With Me →
               </div>
+
             </a>
 
           </div>
 
 
-          <div class="mt-10 pt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-center gap-5 text-sm text-slate-500">
-            <span>AI Automation</span>
-            <span class="hidden sm:block">•</span>
-            <span>Workflow Design</span>
-            <span class="hidden sm:block">•</span>
-            <span>Business Systems</span>
+          <!-- GITHUB -->
+
+          <div class="mt-8 text-center">
+
+            <a
+              href="https://github.com/larasaints"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="inline-flex items-center gap-2 text-sm text-gray-500 hover:text-white transition"
+            >
+              Explore my GitHub portfolio
+              <span>↗</span>
+            </a>
+
           </div>
 
         </div>
 
       </div>
+
     </section>
+
 
   </main>
 
 
-  <!-- =========================
+  <!-- =========================================================
        FOOTER
-  ========================== -->
-  <footer class="border-t border-white/5 bg-ink">
+  ========================================================== -->
+
+  <footer class="border-t border-white/5 bg-dark-950">
+
     <div class="max-w-7xl mx-auto px-5 sm:px-8 py-10">
 
-      <div class="flex flex-col md:flex-row md:items-center justify-between gap-6">
+      <div
+        class="flex flex-col md:flex-row md:items-center justify-between gap-6"
+      >
 
         <div>
-          <div class="font-bold text-white">Lara Joy Santos</div>
-          <div class="text-sm text-slate-600 mt-1">
-            AI Automation Specialist
+
+          <div class="font-display font-bold text-white">
+            Lara Joy Santos
           </div>
+
+          <div class="text-sm text-gray-600 mt-1">
+            Digital Smith • AI Automations Specialist
+          </div>
+
         </div>
 
-        <div class="flex flex-wrap items-center gap-5 text-sm">
-          <a href="#work" class="text-slate-500 hover:text-white transition">Work</a>
-          <a href="#stack" class="text-slate-500 hover:text-white transition">Stack</a>
-          <a href="#hire" class="text-slate-500 hover:text-white transition">Hire Me</a>
+
+        <div class="flex flex-wrap gap-5 text-sm">
 
           <a
-            href="YOUR_GITHUB_URL_HERE"
+            href="mailto:lrjoysantos@gmail.com"
+            class="text-gray-500 hover:text-white transition"
+          >
+            Email
+          </a>
+
+          <a
+            href="https://linkedin.com/in/larajoysantos"
             target="_blank"
             rel="noopener noreferrer"
-            class="text-slate-500 hover:text-neon transition"
+            class="text-gray-500 hover:text-white transition"
           >
-            GitHub ↗
+            LinkedIn
           </a>
+
+          <a
+            href="https://www.upwork.com/freelancers/~0110270805ac420e43?mp_source=share"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-500 hover:text-white transition"
+          >
+            Upwork
+          </a>
+
+          <a
+            href="https://www.onlinejobs.ph/jobseekers/info/1430335"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-500 hover:text-white transition"
+          >
+            OnlineJobs.ph
+          </a>
+
+          <a
+            href="https://github.com/larasaints"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-gray-500 hover:text-white transition"
+          >
+            GitHub
+          </a>
+
         </div>
 
       </div>
 
-      <div class="mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-slate-700">
-        <span>© 2026 Lara Joy Santos. All rights reserved.</span>
-        <span>Built for automation. Designed for impact.</span>
+
+      <div
+        class="mt-8 pt-6 border-t border-white/5 flex flex-col sm:flex-row justify-between gap-3 text-xs text-gray-700"
+      >
+
+        <span>
+          © 2026 Lara Joy Santos. All rights reserved.
+        </span>
+
+        <span>
+          AI Automation • Digital Design • Digital Solutions
+        </span>
+
       </div>
 
     </div>
+
   </footer>
+
+
+  <!-- =========================================================
+       COMPONENT CLASSES
+  ========================================================== -->
+
+  <style>
+
+    .tag {
+      display: inline-flex;
+      padding: .35rem .65rem;
+      border-radius: .5rem;
+      background: rgba(255,255,255,.04);
+      border: 1px solid rgba(255,255,255,.07);
+      color: #9ca3af;
+      font-size: .72rem;
+    }
+
+    .tech {
+      display: inline-flex;
+      padding: .7rem 1rem;
+      border-radius: .75rem;
+      background: rgba(255,255,255,.025);
+      border: 1px solid rgba(255,255,255,.08);
+      color: #d1d5db;
+      font-size: .85rem;
+      transition: all .2s ease;
+    }
+
+    .tech:hover {
+      border-color: rgba(182,255,59,.35);
+      color: #b6ff3b;
+      transform: translateY(-2px);
+    }
+
+    .mini-tag {
+      display: inline-flex;
+      padding: .35rem .6rem;
+      border-radius: .5rem;
+      background: rgba(79,140,255,.06);
+      border: 1px solid rgba(79,140,255,.12);
+      color: #9ca3af;
+      font-size: .7rem;
+    }
+
+    .label {
+      font-size: .68rem;
+      font-weight: 700;
+      letter-spacing: .16em;
+      color: #6b7280;
+      text-transform: uppercase;
+    }
+
+    .description {
+      margin-top: .55rem;
+      color: #9ca3af;
+      font-size: .875rem;
+      line-height: 1.65rem;
+    }
+
+    .button-primary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .75rem 1rem;
+      border-radius: .7rem;
+      background: #fff;
+      color: #070a0f;
+      font-size: .875rem;
+      font-weight: 700;
+      transition: all .2s ease;
+    }
+
+    .button-primary:hover {
+      background: #b6ff3b;
+    }
+
+    .button-secondary {
+      display: inline-flex;
+      align-items: center;
+      gap: .5rem;
+      padding: .75rem 1rem;
+      border-radius: .7rem;
+      border: 1px solid rgba(255,255,255,.1);
+      color: #d1d5db;
+      font-size: .875rem;
+      font-weight: 600;
+      transition: all .2s ease;
+    }
+
+    .button-secondary:hover {
+      border-color: rgba(79,140,255,.4);
+      background: rgba(79,140,255,.08);
+      color: white;
+    }
+
+  </style>
+
+
+  <!-- =========================================================
+       SMALL INTERACTION
+  ========================================================== -->
+
+  <script>
+
+    // Add a subtle active navigation effect as the user scrolls.
+
+    const sections = document.querySelectorAll("section[id]");
+    const navLinks = document.querySelectorAll("nav a[href^='#']");
+
+    const observer = new IntersectionObserver(
+      entries => {
+
+        entries.forEach(entry => {
+
+          if (entry.isIntersecting) {
+
+            navLinks.forEach(link => {
+
+              link.classList.remove("text-white");
+
+              if (
+                link.getAttribute("href") ===
+                "#" + entry.target.id
+              ) {
+                link.classList.add("text-white");
+              }
+
+            });
+
+          }
+
+        });
+
+      },
+      {
+        threshold: 0.35
+      }
+    );
+
+    sections.forEach(section => observer.observe(section));
+
+  </script>
 
 </body>
 </html>
