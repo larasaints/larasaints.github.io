@@ -2012,86 +2012,96 @@
 
             </article>
 
-
+          >
 
             <!-- STATIC PROJECT 2 -->
-
-            <article class="design-card glass rounded-3xl overflow-hidden">
-
-              <!-- REPLACE WITH YOUR IMAGE -->
-
-              <div
-                class="design-placeholder
-                       aspect-[4/3]
-                       flex items-center
-                       justify-center
-                       text-center
-                       p-6"
-              >
-
-                <div>
-
+            <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
+              
+              <div>
+                <!-- INTERACTIVE SLIDER FRAME: Holds 2 photos showing one at a time -->
+                <div class="relative w-full group">
+                  
+                  <!-- Scroll Box Container (Horizontal Snapping Core Engine) -->
                   <div
-                    class="text-blue
-                           font-display
-                           font-bold
-                           text-sm
-                           uppercase
-                           tracking-widest"
+                    id="static-01-slider"
+                    class="workflow-placeholder
+                           aspect-[4/3]
+                           border-b border-white/5
+                           overflow-x-auto
+                           flex
+                           scroll-smooth
+                           snap-x snap-mandatory
+                           scrollbar-hide"
+                    style="-ms-overflow-style: none; scrollbar-width: none;"
                   >
-                    STATIC / 02
+                    <!-- Slide 1: Primary RITE-LITE Graphic Layout -->
+                    <div id="rite-lite-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img
+                        src="./screenshots/rite-lite.png"
+                        alt="Marketing / Promotional Asset 1"
+                        class="w-full h-full object-cover object-center block"
+                      />
+                    </div>
+
+                    <!-- Slide 2: Secondary Promotional Design Variant Layout -->
+                    <div id="ysl-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img
+                        src="./screenshots/aeon.png"
+                        alt="Marketing / Promotional Asset 2"
+                        class="w-full h-full object-cover object-center block"
+                      />
+                    </div>
+
                   </div>
 
-                  <div
-                    class="mt-3
-                           text-white
-                           font-semibold"
-                  >
-                    Replace with design preview
+                  <!-- Navigation Target Indicator Dots Overlay -->
+                  <div class="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5 z-20">
+                    <a 
+                      href="#ysl-slide-1" 
+                      class="w-2 h-2 rounded-full bg-white/40 hover:bg-white focus:bg-lime active:bg-lime transition-all duration-200"
+                      aria-label="Go to Slide 1"
+                    ></a>
+                    <a 
+                      href="#ysl-slide-2" 
+                      class="w-2 h-2 rounded-full bg-white/40 hover:bg-white focus:bg-lime active:bg-lime transition-all duration-200"
+                      aria-label="Go to Slide 2"
+                    ></a>
                   </div>
 
-                  <div
+                </div>
+
+                <!-- Text metadata area block remains completely untouched -->
+                <div class="p-6">
+
+                  <div class="eyebrow text-blue">
+                    Promotional Design
+                  </div>
+
+                  <h4 class="mt-2 text-lg font-bold text-white">
+                    Marketing / Promotional Asset
+                  </h4>
+
+                  <p
                     class="mt-2
-                           text-xs
-                           text-gray-600"
+                           text-sm
+                           text-gray-500
+                           leading-6"
                   >
-                    Add your graphic here
+                    Designed for clear visual communication, promotion, and audience engagement.
+                  </p>
+
+                  <div class="mt-4 flex flex-wrap gap-2">
+                    <span class="tag">Marketing</span>
+                    <span class="tag">Visual Design</span>
+                    <span class="tag">Canva</span>
                   </div>
 
-                </div>
-
-              </div>
-
-              <div class="p-6">
-
-                <div class="eyebrow text-blue">
-                  Digital Graphic
-                </div>
-
-                <h4 class="mt-2 text-lg font-bold text-white">
-                  Marketing / Promotional Asset
-                </h4>
-
-                <p
-                  class="mt-2
-                         text-sm
-                         text-gray-500
-                         leading-6"
-                >
-                  Designed for clear visual communication,
-                  promotion, and audience engagement.
-                </p>
-
-                <div class="mt-4 flex flex-wrap gap-2">
-                  <span class="tag">Marketing</span>
-                  <span class="tag">Visual Design</span>
-                  <span class="tag">Canva</span>
                 </div>
 
               </div>
 
             </article>
-          
+
           >
 
             <!-- STATIC PROJECT 3 -->
