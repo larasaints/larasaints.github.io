@@ -1,4 +1,4 @@
-# Digital Smith | AI Automations Specialist, Digital Graphic Designer
+# Digital Smith | AI Automations Specialist | GHL, N8N, Zapier, Make, API & Webhook, GHL's Conversation AI Integration, RAG, LLMs, Error Handling & Escalation Workflow
 
 > I transform concepts into high-performing digital realities. By blending intelligent AI workflows, strategic graphic design, and full-stack software development, I build end-to-end solutions that scale. Let’s partner up to streamline your operations and drive your business forward.
 
@@ -25,6 +25,8 @@
 ## 📂 FEATURED PROJECTS
 
 ### Automations
+
+I design interconnected automation systems that combine AI, CRM platforms, structured data, workflow logic, exception handling, and operational dashboards. My projects focus on turning manual business processes into repeatable, trackable systems with clear escalation paths and measurable workflow states.
 
 * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
 
@@ -95,4 +97,4 @@
   1. **Visual Frameworks:** Breaks down spatial movement patterns into glanceable, high-fidelity card layouts.
   2. **Behavioral Mechanics:** Replaces mental tracking with real-time feedback loops, XP counters, and level progression models to increase user engagement.
 
-* **Core & Architecture:** The underlying source code, database structures, custom visual card templates, and corporate branding for this project are proprietary and hosted in a private repository to protect intellectual property. Permission is granted strictly for public portfolio demonstration, recruitment evaluation, and educational review via the live published site. No part of the visual assets or architecture may be replica*
+* **Core & Architecture:** The underlying source code, database structures, custom visual card templates, and corporate branding for this project are proprietary and hosted in a private repository to protect intellectual property. Permission is granted strictly for public portfolio demonstration, recruitment evaluation, and educational review via the live published site. No part of the visual assets or architecture may be replicated*
