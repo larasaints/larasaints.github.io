@@ -586,7 +586,7 @@
          CAPABILITIES
     ========================================================== -->
 
-    <section
+  <section
   id="capabilities"
   class="py-24 sm:py-32
          border-y border-white/5
@@ -596,7 +596,7 @@
   <!-- Keeps your overall layout safe while matching your standard padding rules -->
   <div class="max-w-7xl mx-auto px-5 sm:px-8">
 
-    <!-- CHANGED HERE: Replaced max-w-3xl with w-full to let the words run fluidly -->
+    <!-- Replaced max-w-3xl with w-full to let the header words run fluidly -->
     <div class="w-full mb-14">
 
       <div class="eyebrow mb-4">
@@ -622,239 +622,200 @@
         I combine AI, automation, development, design, and interactive media to create complete digital solutions.
       </p>
 
-    </div>
-  </div>
+    </div> <!-- End of text header wrapper -->
 
 
+    <!-- The boxes layout grid is now safely nested back inside the main max-w-7xl container -->
+    <div
+      class="grid
+             md:grid-cols-2
+             lg:grid-cols-3
+             gap-5"
+    >
+
+      <!-- AI -->
+      <article class="glass rounded-3xl p-7">
         <div
-          class="grid
-                 md:grid-cols-2
-                 lg:grid-cols-3
-                 gap-5"
+          class="w-12 h-12
+                 rounded-xl
+                 bg-blue/10
+                 border border-blue/20
+                 flex items-center
+                 justify-center
+                 text-blue
+                 font-bold"
         >
-
-          <!-- AI -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-blue/10
-                     border border-blue/20
-                     flex items-center
-                     justify-center
-                     text-blue
-                     font-bold"
-            >
-              AI
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              AI & Large Language Models
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              AI-powered workflows, intelligent classification,
-              content generation, decision support, and automation.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">OpenAI API</span>
-              <span class="tag">Claude</span>
-              <span class="tag">Gemini AI</span>
-              <span class="tag">DeepSeek</span>
-              <span class="tag">Grok</span>
-            </div>
-
-          </article>
-
-
-          <!-- AUTOMATION -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-lime/10
-                     border border-lime/20
-                     flex items-center
-                     justify-center
-                     text-lime
-                     font-bold"
-            >
-              ⚡
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              Enterprise Workflow Automation
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              Event-driven workflows, scheduled processes,
-              integrations, routing, alerts, and operational logic.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">Make.com</span>
-              <span class="tag">n8n</span>
-              <span class="tag">Zapier</span>
-            </div>
-
-          </article>
-
-
-          <!-- DEVELOPMENT -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-purple-500/10
-                     border border-purple-400/20
-                     flex items-center
-                     justify-center
-                     text-purple-300
-                     font-bold"
-            >
-              DEV
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              Low-Code & Full-Stack Prototyping
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              Rapid product development, database integration,
-              application architecture, and functional prototypes.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">Lovable.io</span>
-              <span class="tag">Supabase</span>
-              <span class="tag">Web Apps</span>
-              <span class="tag">Rapid Prototyping</span>
-            </div>
-
-          </article>
-
-
-          <!-- DESIGN -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-pink-500/10
-                     border border-pink-400/20
-                     flex items-center
-                     justify-center
-                     text-pink-300
-                     font-bold"
-            >
-              UX
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              System Design & Asset Creation
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              Digital visual systems that combine usability,
-              consistency, brand identity, and scalable asset structures.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">UI Component Systems</span>
-              <span class="tag">Template Engineering</span>
-              <span class="tag">Brand Identity</span>
-              <span class="tag">Digital Assets</span>
-            </div>
-
-          </article>
-
-
-          <!-- INTERACTIVE -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-orange-500/10
-                     border border-orange-400/20
-                     flex items-center
-                     justify-center
-                     text-orange-300
-                     font-bold"
-            >
-              FX
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              Logic & Interactive Media
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              Interactive systems combining logic architecture,
-              game mechanics, storytelling, motion, and video.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">Event-Driven Programming</span>
-              <span class="tag">Logic Architecture</span>
-              <span class="tag">Game Mechanics</span>
-              <span class="tag">Interactive Storytelling</span>
-              <span class="tag">Motion Graphics</span>
-              <span class="tag">Video Production</span>
-            </div>
-
-          </article>
-
-
-          <!-- BACKEND -->
-
-          <article class="glass rounded-3xl p-7">
-
-            <div
-              class="w-12 h-12
-                     rounded-xl
-                     bg-gray-500/10
-                     border border-gray-400/20
-                     flex items-center
-                     justify-center
-                     text-gray-300
-                     font-bold"
-            >
-              API
-            </div>
-
-            <h3 class="mt-6 text-xl font-bold text-white">
-              Backend Dev & Version Control
-            </h3>
-
-            <p class="mt-3 text-sm text-gray-500 leading-6">
-              API-connected systems, repository architecture,
-              documentation, integrations, and maintainable workflows.
-            </p>
-
-            <div class="mt-5 flex flex-wrap gap-2">
-              <span class="tag">GitHub</span>
-              <span class="tag">REST APIs</span>
-              <span class="tag">API Integration</span>
-              <span class="tag">Version Control</span>
-            </div>
-
-          </article>
-
+          AI
         </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          AI & Large Language Models
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          AI-powered workflows, intelligent classification,
+          content generation, decision support, and automation.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">OpenAI API</span>
+          <span class="tag">Claude</span>
+          <span class="tag">Gemini AI</span>
+          <span class="tag">DeepSeek</span>
+          <span class="tag">Grok</span>
+        </div>
+      </article>
 
-      </div>
+      <!-- AUTOMATION -->
+      <article class="glass rounded-3xl p-7">
+        <div
+          class="w-12 h-12
+                 rounded-xl
+                 bg-lime/10
+                 border border-lime/20
+                 flex items-center
+                 justify-center
+                 text-lime
+                 font-bold"
+        >
+          ⚡
+        </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          Enterprise Workflow Automation
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          Webhooks & API Integration, GHL's Conversation AI, Event-driven workflows, scheduled processes,
+          integrations, routing, alerts, and operational logic.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">GHL</span>
+          <span class="tag">n8n</span>
+          <span class="tag">Zapier</span>
+          <span class="tag">Make.com</span>
+        </div>
+      </article>
 
-    </section>
+      <!-- DEVELOPMENT -->
+      <article class="glass rounded-3xl p-7">
+        <div
+          class="w-12 h-12
+                 rounded-xl
+                 bg-purple-500/10
+                 border border-purple-400/20
+                 flex items-center
+                 justify-center
+                 text-purple-300
+                 font-bold"
+        >
+          DEV
+        </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          Low-Code & Full-Stack Prototyping
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          Rapid product development, database integration,
+          application architecture, and functional prototypes.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">Lovable.io</span>
+          <span class="tag">Supabase</span>
+          <span class="tag">Web Apps</span>
+          <span class="tag">Rapid Prototyping</span>
+        </div>
+      </article>
+
+      <!-- DESIGN -->
+      <article class="glass rounded-3xl p-7">
+        <div
+          class="w-12 h-12
+                 rounded-xl
+                 bg-pink-500/10
+                 border border-pink-400/20
+                 flex items-center
+                 justify-center
+                 text-pink-300
+                 font-bold"
+        >
+          UX
+        </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          System Design & Asset Creation
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          Digital visual systems that combine usability,
+          consistency, brand identity, and scalable asset structures.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">UI Component Systems</span>
+          <span class="tag">Template Engineering</span>
+          <span class="tag">Brand Identity</span>
+          <span class="tag">Digital Assets</span>
+        </div>
+      </article>
+
+      <!-- INTERACTIVE -->
+      <article class="glass rounded-3xl p-7">
+        <div
+          class="w-12 h-12
+                 rounded-xl
+                 bg-orange-500/10
+                 border border-orange-400/20
+                 flex items-center
+                 justify-center
+                 text-orange-300
+                 font-bold"
+        >
+          FX
+        </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          Logic & Interactive Media
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          Interactive systems combining logic architecture,
+          game mechanics, storytelling, motion, and video.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">Event-Driven Programming</span>
+          <span class="tag">Logic Architecture</span>
+          <span class="tag">Game Mechanics</span>
+          <span class="tag">Interactive Storytelling</span>
+          <span class="tag">Motion Graphics</span>
+          <span class="tag">Video Production</span>
+        </div>
+      </article>
+
+      <!-- BACKEND -->
+      <article class="glass rounded-3xl p-7">
+        <div
+          class="w-12 h-12
+                 rounded-xl
+                 bg-gray-500/10
+                 border border-gray-400/20
+                 flex items-center
+                 justify-center
+                 text-gray-300
+                 font-bold"
+        >
+          API
+        </div>
+        <h3 class="mt-6 text-xl font-bold text-white">
+          Backend Dev & Version Control
+        </h3>
+        <p class="mt-3 text-sm text-gray-500 leading-6">
+          API-connected systems, repository architecture,
+          documentation, integrations, and maintainable workflows.
+        </p>
+        <div class="mt-5 flex flex-wrap gap-2">
+          <span class="tag">GitHub</span>
+          <span class="tag">REST APIs</span>
+          <span class="tag">API Integration</span>
+          <span class="tag">Version Control</span>
+        </div>
+      </article>
+
+    </div> <!-- End of Grid Wrapper -->
+
+  </div> <!-- End of main max-w-7xl layout container wrapper -->
+
+</section>
+
 
 
     <!-- =========================================================
