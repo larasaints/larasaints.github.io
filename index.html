@@ -1119,55 +1119,17 @@
                 />
               </div>
 
-              <!-- Video Container: Sits perfectly standalone below the image -->
-              <a
-                href="https://www.loom.com/share/465b4946e5f7434ba5092fd0746fdb20"
-                target="_blank"
-                rel="noopener noreferrer"
-                class="block mt-5"
-              >
-
-                <div
-                  class="workflow-placeholder
-                         rounded-2xl
-                         aspect-video
-                         border border-white/10
-                         flex items-center
-                         justify-center
-                         text-center
-                         group"
-                >
-
-                  <div>
-
-                    <div
-                      class="mx-auto
-                             w-14 h-14
-                             rounded-full
-                             bg-white
-                             text-ink
-                             flex items-center
-                             justify-center
-                             text-xl
-                             group-hover:bg-lime
-                             transition"
-                    >
-                      ▶
-                    </div>
-
-                    <div class="mt-4 text-white font-semibold">
-                      Watch Workflow Demonstration
-                    </div>
-
-                    <div class="mt-1 text-xs text-gray-500">
-                      Loom walkthrough
-                    </div>
-
-                  </div>
-
-                </div>
-
-              </a>
+              <!-- VIDEO CONTAINER: Replaced static link with Loom's Live Responsive Embed Player -->
+              <div class="mt-5 rounded-2xl border border-white/10 overflow-hidden aspect-video bg-black relative">
+                <iframe 
+                  src="https://loom.com" 
+                  frameborder="0" 
+                  webkitallowfullscreen 
+                  mozallowfullscreen 
+                  allowfullscreen 
+                  class="absolute top-0 left-0 w-full h-full"
+                ></iframe>
+              </div>
 
             </div> <!-- End of Right Side Column -->
 
