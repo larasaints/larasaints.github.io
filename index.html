@@ -2486,7 +2486,7 @@
 
                 <div class="mt-6">
                   <a
-                    href="https://thekitchendeck.lovable.app/"
+                    href="https://thekitchendeck.lovable.app"
                     target="_blank"
                     rel="noopener noreferrer"
                     class="secondary-btn"
@@ -2499,7 +2499,7 @@
             </article>
 
 
-            <!-- DIGITAL PRODUCT PLACEHOLDER -->
+            <!-- DIGITAL PRODUCT SHOWCASE: 5-Photo Slider Layout with High-Visibility Outline Indicators -->
             <article
               class="design-card
                      glass
@@ -2509,41 +2509,80 @@
             >
 
               <div>
-                <!-- REPLACE WITH DIGITAL PRODUCT SCREENSHOT -->
-                <div
-                  class="design-placeholder
-                         aspect-video
-                         flex items-center
-                         justify-center
-                         text-center
-                         p-8 border-b border-white/5"
-                >
-                  <div>
-                    <div
-                      class="mx-auto
-                             w-20 h-20
-                             rounded-3xl
-                             bg-blue/10
-                             border border-blue/20
-                             flex items-center
-                             justify-center
-                             text-blue
-                             font-display
-                             font-bold"
-                    >
-                      UI
+                <!-- INTERACTIVE SLIDER FRAME -->
+                <div class="relative w-full group border-b border-white/5 bg-black">
+                  
+                  <!-- Scroll Box Container (Horizontal Snapping Core Engine) -->
+                  <div
+                    id="digital-product-slider"
+                    class="workflow-placeholder
+                           w-full
+                           aspect-video
+                           overflow-x-auto
+                           flex
+                           scroll-smooth
+                           snap-x snap-mandatory
+                           scrollbar-hide"
+                    style="-ms-overflow-style: none; scrollbar-width: none;"
+                  >
+                    <!-- Slide 1 -->
+                    <div id="product-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img 
+                        src="./screenshots/how.png" 
+                        alt="Digital Product Showcase Screen View 1" 
+                        class="w-full h-full object-cover object-center block"
+                      />
                     </div>
 
-                    <div class="mt-5 text-white font-semibold">
-                      Digital Product Preview
+                    <!-- Slide 2 -->
+                    <div id="product-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img 
+                        src="./screenshots/steps.png" 
+                        alt="Digital Product Showcase Screen View 2" 
+                        class="w-full h-full object-cover object-center block"
+                      />
                     </div>
 
-                    <div class="mt-2 text-xs text-gray-600">
-                      Replace with your product screenshot
+                    <!-- Slide 3 -->
+                    <div id="product-slide-3" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img 
+                        src="./screenshots/cards.png" 
+                        alt="Digital Product Showcase Screen View 3" 
+                        class="w-full h-full object-cover object-center block"
+                      />
                     </div>
+
+                    <!-- Slide 4 -->
+                    <div id="product-slide-4" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img 
+                        src="./screenshots/training-log.png" 
+                        alt="Digital Product Showcase Screen View 4" 
+                        class="w-full h-full object-cover object-center block"
+                      />
+                    </div>
+
+                    <!-- Slide 5 -->
+                    <div id="product-slide-5" class="w-full h-full shrink-0 snap-start overflow-hidden">
+                      <img 
+                        src="./screenshots/ai-coach.png" 
+                        alt="Digital Product Showcase Screen View 5" 
+                        class="w-full h-full object-cover object-center block"
+                      />
+                    </div>
+
+                  </div>
+
+                  <!-- Navigation Target Indicator Dots Layer (With solid crisp black outline border) -->
+                  <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
+                    <a href="#product-slide-1" class="w-3 h-3 rounded-full bg-lime border-2 border-black shadow-md transition-all duration-200" aria-label="Go to Slide 1"></a>
+                    <a href="#product-slide-2" class="w-3 h-3 rounded-full bg-lime/40 hover:bg-lime border-2 border-black shadow-md transition-all duration-200" aria-label="Go to Slide 2"></a>
+                    <a href="#product-slide-3" class="w-3 h-3 rounded-full bg-lime/40 hover:bg-lime border-2 border-black shadow-md transition-all duration-200" aria-label="Go to Slide 3"></a>
+                    <a href="#product-slide-4" class="w-3 h-3 rounded-full bg-lime/40 hover:bg-lime border-2 border-black shadow-md transition-all duration-200" aria-label="Go to Slide 4"></a>
+                    <a href="#product-slide-5" class="w-3 h-3 rounded-full bg-lime/40 hover:bg-lime border-2 border-black shadow-md transition-all duration-200" aria-label="Go to Slide 5"></a>
                   </div>
                 </div>
 
+                <!-- Text Description Area -->
                 <div class="p-7">
 
                   <div class="eyebrow text-blue">
@@ -2613,28 +2652,11 @@
                      font-bold
                      text-white"
             >
-              Explore the full visual portfolio.
-            </h3>
-            <p class="mt-2 text-sm text-gray-500">
-              Static graphics, motion work, digital products,
-              and interactive visual experiences.
-            </p>
-          </div>
+            </article> <!-- Closes DIGITAL PRODUCT SHOWCASE card container -->
 
-          <a
-            href="https://github.com/larasaints/larasaints.github.io"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="primary-btn shrink-0"
-          >
-            Explore Design Portfolio ↗
-          </a>
+          </div> <!-- Closes the 2-column flex grid layout row split -->
 
-        </div>
-
-      </div>
-
-    </section>
+        </div> <!-- Closes the master #digital-products section wrapper block -->
 
 
     <!-- =========================================================
