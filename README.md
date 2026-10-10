@@ -13,8 +13,8 @@
 
 ## 🛠️ Tech Stack & Capabilities
 
-* 🧠 **AI & Large Language Models:** OpenAI API • Claude • Gemini AI • DeepSeek • Grok
-* 🔌 **Enterprise Workflow Automation:** Make.com (Integromat) • n8n • Zapier
+* 🧠 **AI & Large Language Models:** OpenAI API • Claude • Gemini AI • DeepSeek • Grok • Perplexity 
+* 🔌 **Enterprise Workflow Automation:** GHL • Make.com (Integromat) • n8n • Zapier 
 * 💻 **Low-Code & Full-Stack Prototyping:** Lovable.io • Supabase Database Integration • Web App Architecture • Rapid Prototyping
 * 🎨 **System Design & Asset Creation:** UI Component Design Systems • Template Engineering • Brand Visual Identity • Digital Asset Architecture
 * 🕹️ **Logic & Interactive Media:** Event-Driven Programming • Logic Architecture • Game Mechanics Design • Interactive Storytelling • Motion Graphics & Video Production
@@ -29,6 +29,37 @@
 I design interconnected automation systems that combine AI, CRM platforms, structured data, workflow logic, exception handling, and operational dashboards. My projects focus on turning manual business processes into repeatable, trackable systems with clear escalation paths and measurable workflow states.
 
 * 💻 [View All My Automation Projects & Workflow Breakdown](https://github.com/larasaints/automations)
+
+### 🏡 AI Real Estate Lead Qualification & CRM Routing System
+
+* **The Problem:** Real estate teams often manage incoming leads manually, resulting in inconsistent qualification, incomplete CRM data, delayed follow-up, and limited visibility into pipeline status. Qualification errors may also go unnoticed when there is no defined human-handoff process.
+
+* **The Solution:** Designed and configured an AI-assisted real estate lead qualification system in GoHighLevel. The system connects lead qualification, structured CRM data capture, qualification processing, opportunity pipeline management, error escalation, and dashboard tracking into one operational workflow architecture.
+
+* **Ecosystem Architecture — Three Interconnected GoHighLevel Workflows:**
+  * **Workflow 01 — AI Real Estate Lead Qualification:** Captures and organizes lead intent, budget, timeline, location, qualification status, and AI score in structured CRM fields.
+  * **Workflow 02 — AI Real Estate Qualification Processing:** Processes qualification data, updates CRM records, creates or updates opportunities, and organizes leads within the configured pipeline stages.
+  * **Workflow 03 — AI Qualification Error Handler:** Triggers when a contact receives the `AI Qualification Error` tag, updates the contact field to `AI Handoff Required`, adds the `Human Handoff` tag, and sends an internal notification to alert the team.
+
+* **Pipeline & Data Management:** Configured a real estate opportunity pipeline with the stages **New Lead**, **Qualified**, and **Nurture**. The system includes five valid lead opportunities, while incomplete test samples were excluded from the valid opportunity records.
+
+* **Dashboard Visibility:** Built dashboard tracking around eight operational widgets:
+  * Total Qualified Leads
+  * Total Nurture Leads
+  * Total Hot Leads
+  * Total Unqualified / Error / AI Human Handoff
+  * Opportunity Counts by Status
+  * Leads by Lead Type
+  * Contacts by AI Score
+  * Contacts by Tags
+
+* **Key Engineering Capabilities:** GoHighLevel CRM architecture, AI-assisted lead qualification, structured contact-field design, qualification scoring, opportunity and pipeline management, exception handling, human-handoff automation, internal notifications, dashboard reporting, workflow testing, and technical documentation.
+
+* **Business Outcome:** Created a repeatable and trackable framework for moving real estate leads from qualification through CRM processing, pipeline organization, error escalation, and operational reporting.
+
+* **Code, Documentation & Demonstration:**
+  * 💻 [View AI Automation Portfolio and Workflow Documentation](https://github.com/larasaints/automations/tree/main/ai-real-estate-lead-qualification-system)
+  * 🎥 [Watch the Loom Workflow Demonstration](https://www.loom.com/share/1702cbee673a4aeba5e459784b45feab)
 
 ### 🏢 UrbanBite: Multi-Zap Franchise Operations & Compliance Automation Engine
 
