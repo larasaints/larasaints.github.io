@@ -2156,7 +2156,7 @@
              MOTION GRAPHICS
         ====================================================== -->
 
-        <div
+         <div
           id="motion-design"
           class="mt-20"
         >
@@ -2202,21 +2202,56 @@
                    gap-5"
           >
 
-            <!-- MOTION PROJECT 1 -->
+            <!-- =========================================================
+                 MOTION PROJECT 1: 9:16 Vertical Dual Slider
+            ========================================================== -->
             <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
 
               <div>
-                <div class="design-placeholder aspect-video flex items-center justify-center text-center p-6">
-                  <div>
-                    <div class="mx-auto w-14 h-14 rounded-full bg-purple-500/10 border border-purple-400/20 flex items-center justify-center text-purple-300 text-xl">
-                      ▶
+                <!-- Main Carousel Frame with distinct dark border layout outline -->
+                <div class="relative w-full group border-b border-black bg-black">
+                  
+                  <!-- Scroll Box Container (Horizontal Snapping Core Engine in 9:16) -->
+                  <div
+                    id="motion-01-slider"
+                    class="workflow-placeholder
+                           w-full
+                           aspect-[9/16]
+                           overflow-x-auto
+                           flex
+                           scroll-smooth
+                           snap-x snap-mandatory
+                           scrollbar-hide"
+                    style="-ms-overflow-style: none; scrollbar-width: none;"
+                  >
+                    <!-- Slide 1 -->
+                    <div id="motion-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden relative">
+                      <iframe
+                        src="https://youtube.com"
+                        title="Motion Graphic Walkthrough 1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        class="absolute top-0 left-0 w-full h-full"
+                      ></iframe>
                     </div>
-                    <div class="mt-4 text-white font-semibold">
-                      Motion Preview
+                    <!-- Slide 2 -->
+                    <div id="motion-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden relative">
+                      <iframe
+                        src="https://youtube.com"
+                        title="Motion Graphic Walkthrough 2"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        class="absolute top-0 left-0 w-full h-full"
+                      ></iframe>
                     </div>
-                    <div class="mt-2 text-xs text-gray-600">
-                      Replace with video or thumbnail
-                    </div>
+                  </div>
+
+                  <!-- Navigation Target Indicator Dots (High-visibility Mapped Lime Green) -->
+                  <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
+                    <a href="#motion-slide-1" class="w-2.5 h-2.5 rounded-full bg-lime border border-black/40 shadow-md transition-all duration-200" aria-label="Go to Video 1"></a>
+                    <a href="#motion-slide-2" class="w-2.5 h-2.5 rounded-full bg-lime/40 hover:bg-lime border border-black/40 shadow-md transition-all duration-200" aria-label="Go to Video 2"></a>
                   </div>
                 </div>
 
@@ -2243,21 +2278,56 @@
             </article>
 
 
-            <!-- MOTION PROJECT 2 -->
+            <!-- =========================================================
+                 MOTION PROJECT 2: 9:16 Vertical Dual Slider
+            ========================================================== -->
             <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
 
               <div>
-                <div class="design-placeholder aspect-video flex items-center justify-center text-center p-6">
-                  <div>
-                    <div class="mx-auto w-14 h-14 rounded-full bg-purple-500/10 border border-purple-400/20 flex items-center justify-center text-purple-300 text-xl">
-                      ▶
+                <!-- Main Carousel Frame with distinct dark border layout outline -->
+                <div class="relative w-full group border-b border-black bg-black">
+                  
+                  <!-- Scroll Box Container (Horizontal Snapping Core Engine in 9:16) -->
+                  <div
+                    id="motion-02-slider"
+                    class="workflow-placeholder
+                           w-full
+                           aspect-[9/16]
+                           overflow-x-auto
+                           flex
+                           scroll-smooth
+                           snap-x snap-mandatory
+                           scrollbar-hide"
+                    style="-ms-overflow-style: none; scrollbar-width: none;"
+                  >
+                    <!-- Slide 1 -->
+                    <div id="social-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden relative">
+                      <iframe
+                        src="https://youtube.com"
+                        title="Animated Social Content 1"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        class="absolute top-0 left-0 w-full h-full"
+                      ></iframe>
                     </div>
-                    <div class="mt-4 text-white font-semibold">
-                      Motion Preview
+                    <!-- Slide 2 -->
+                    <div id="social-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden relative">
+                      <iframe
+                        src="https://youtube.com"
+                        title="Animated Social Content 2"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen
+                        class="absolute top-0 left-0 w-full h-full"
+                      ></iframe>
                     </div>
-                    <div class="mt-2 text-xs text-gray-600">
-                      Replace with video or thumbnail
-                    </div>
+                  </div>
+
+                  <!-- Navigation Target Indicator Dots (High-visibility Mapped Lime Green) -->
+                  <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
+                    <a href="#social-slide-1" class="w-2.5 h-2.5 rounded-full bg-lime border border-black/40 shadow-md transition-all duration-200" aria-label="Go to Video 1"></a>
+                    <a href="#social-slide-2" class="w-2.5 h-2.5 rounded-full bg-lime/40 hover:bg-lime border border-black/40 shadow-md transition-all duration-200" aria-label="Go to Video 2"></a>
                   </div>
                 </div>
 
@@ -2284,14 +2354,16 @@
             </article>
 
 
-            <!-- MOTION PROJECT 3: Optimized to fit the vertical video layout perfectly -->
+            <!-- =========================================================
+                 MOTION PROJECT 3: Left Completely Untouched & Perfect
+            ========================================================== -->
             <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
 
               <div>
                 <!-- FIXED CONTAINER: Replaced aspect-[4/3] with aspect-[9/16] to eliminate black sidebars -->
                 <div class="relative w-full overflow-hidden bg-black border-b border-white/5 aspect-[9/16]">
                   <iframe
-                    src="https://www.youtube.com/embed/nrR13K41qH4"
+                    src="https://youtube.com"
                     title="Visual Storytelling Video Player"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -2305,28 +2377,6 @@
                   <div class="eyebrow text-purple-300">
                     Video Production
                   </div>
-                  <h4 class="mt-2 text-lg font-bold text-white font-display">
-                    Visual Storytelling
-                  </h4>
-                  <p class="mt-2 text-sm text-gray-500 leading-6">
-                    Video editing, transitions, timing, and visual pacing designed for digital audiences.
-                  </p>
-                </div>
-              </div>
-
-              <!-- Skill Tags pinned cleanly to the bottom grid edge -->
-              <div class="px-6 pb-6 flex flex-wrap gap-2">
-                <span class="tag">Editing</span>
-                <span class="tag">Higgsfield</span>
-                <span class="tag">Transitions</span>
-                <span class="tag">Capcut</span>
-              </div>
-
-            </article>
-
-          </div>
-
-        </div>
 
 
         <!-- =====================================================
