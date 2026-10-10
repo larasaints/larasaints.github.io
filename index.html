@@ -1963,18 +1963,18 @@
     <!-- STATIC PROJECT 1: Single Vertical Image -->
     <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
       <div>
-        <!-- OPTIMIZED CONTAINER: Swapped aspect-[4/3] with aspect-[9/16] to host vertical design asset -->
-        <div class="workflow-placeholder aspect-[9/16] max-h-[450px] border-b border-black bg-black overflow-hidden w-full">
+        <!-- FIXED: Updated container padding and aspect ratio to reveal the entire 9:16 layout safely -->
+        <div class="workflow-placeholder aspect-[9/16] border-b border-white/5 bg-black/20 overflow-hidden w-full p-2 flex items-center justify-center">
           <img
             src="./screenshots/ysl.png"
             alt="Product/Social Graphic"
-            class="w-full h-full object-cover object-center block"
+            class="w-full h-full object-contain object-center block"
           />
         </div>
 
         <!-- Text metadata area block -->
         <div class="p-6">
-          <div class="eyebrow text-blue">
+          <div class="eyebrow text-blue text-[10px] tracking-widest uppercase mb-2">
             Promotional Design
           </div>
           <h4 class="mt-2 text-lg font-bold text-white font-display">
@@ -1997,8 +1997,8 @@
     <!-- STATIC PROJECT 2: Interactive Vertical Multi-Photo Slider -->
     <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
       <div>
-        <!-- Main Carousel Frame with dark outline layout constraint configuration -->
-        <div class="relative w-full group border-b border-black bg-black">
+        <!-- FIXED: Built responsive 9:16 layout slide view with object-contain formatting rules -->
+        <div class="relative w-full group border-b border-white/5 bg-black/20">
           
           <!-- Scroll Box Container (Horizontal Snapping Core Engine in 9:16) -->
           <div
@@ -2006,7 +2006,6 @@
             class="workflow-placeholder
                    w-full
                    aspect-[9/16]
-                   max-h-[450px]
                    overflow-x-auto
                    flex
                    scroll-smooth
@@ -2015,25 +2014,25 @@
             style="-ms-overflow-style: none; scrollbar-width: none;"
           >
             <!-- Slide 1: Primary RITE-LITE Graphic Layout -->
-            <div id="rite-lite-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden">
+            <div id="rite-lite-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden flex items-center justify-center p-2">
               <img
                 src="./screenshots/rite-lite.png"
                 alt="Marketing / Promotional Asset 1"
-                class="w-full h-full object-cover object-center block"
+                class="w-full h-full object-contain object-center block"
               />
             </div>
 
             <!-- Slide 2: Secondary Promotional Design Variant Layout -->
-            <div id="ysl-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden">
+            <div id="ysl-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden flex items-center justify-center p-2">
               <img
                 src="./screenshots/aeon.png"
                 alt="Marketing / Promotional Asset 2"
-                class="w-full h-full object-cover object-center block"
+                class="w-full h-full object-contain object-center block"
               />
             </div>
           </div>
 
-          <!-- Navigation Target Indicator Dots Overlay (Upgraded to high-visibility Lime Green with thick black outline) -->
+          <!-- Navigation Target Indicator Dots Overlay (High-visibility Lime Green with thick black outline) -->
           <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
             <a 
               href="#rite-lite-slide-1" 
@@ -2050,7 +2049,7 @@
 
         <!-- Text metadata area block remains completely untouched -->
         <div class="p-6">
-          <div class="eyebrow text-blue">
+          <div class="eyebrow text-blue text-[10px] tracking-widest uppercase mb-2">
             Promotional Design
           </div>
           <h4 class="mt-2 text-lg font-bold text-white font-display">
@@ -2073,18 +2072,18 @@
     <!-- STATIC PROJECT 3: Single Vertical Image -->
     <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
       <div>
-        <!-- OPTIMIZED CONTAINER: Swapped aspect-[4/3] with aspect-[9/16] to host vertical design asset -->
-        <div class="workflow-placeholder aspect-[9/16] max-h-[450px] border-b border-black bg-black overflow-hidden w-full">
+        <!-- FIXED: Updated container padding and aspect ratio to reveal the entire 9:16 layout safely -->
+        <div class="workflow-placeholder aspect-[9/16] border-b border-white/5 bg-black/20 overflow-hidden w-full p-2 flex items-center justify-center">
           <img
             src="./screenshots/tkdassets.png"
             alt="Brand/Digital Asset"
-            class="w-full h-full object-cover object-center block"
+            class="w-full h-full object-contain object-center block"
           />
         </div>
 
         <!-- Text metadata area block -->
         <div class="p-6">
-          <div class="eyebrow text-blue">
+          <div class="eyebrow text-blue text-[10px] tracking-widest uppercase mb-2">
             Visual Identity
           </div>
           <h4 class="mt-2 text-lg font-bold text-white font-display">
@@ -2107,6 +2106,7 @@
   </div> <!-- End of master grid row split layout container -->
 
 </div> <!-- End of static-design section layout wrapper block -->
+
 
 
          <!-- =========================================================
