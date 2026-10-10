@@ -1916,241 +1916,198 @@
         </div>
 
 
-        <!-- =====================================================
-             STATIC GRAPHICS
-        ====================================================== -->
+<!-- =========================================================
+     STATIC GRAPHICS SECTION
+========================================================== -->
+<div
+  id="static-design"
+  class="mt-16"
+>
 
-        <div
-          id="static-design"
-          class="mt-16"
-        >
+  <div
+    class="flex flex-col
+           sm:flex-row
+           sm:items-end
+           justify-between
+           gap-5
+           mb-7"
+  >
+    <div>
+      <div class="label">
+        01 / Static Graphics
+      </div>
+      <h3
+        class="mt-2
+               text-2xl sm:text-3xl
+               font-display
+               font-bold
+               text-white"
+      >
+        Visual communication & brand assets.
+      </h3>
+    </div>
 
+    <span class="tag">
+      Canva • Digital Design
+    </span>
+  </div>
+
+  <!-- MASTER GRID CONTAINER: Holds all 3 static layout cards side-by-side -->
+  <div
+    class="grid
+           sm:grid-cols-2
+           lg:grid-cols-3
+           gap-5"
+  >
+
+    <!-- STATIC PROJECT 1: Single Vertical Image -->
+    <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
+      <div>
+        <!-- OPTIMIZED CONTAINER: Swapped aspect-[4/3] with aspect-[9/16] to host vertical design asset -->
+        <div class="workflow-placeholder aspect-[9/16] max-h-[450px] border-b border-black bg-black overflow-hidden w-full">
+          <img
+            src="./screenshots/ysl.png"
+            alt="Product/Social Graphic"
+            class="w-full h-full object-cover object-center block"
+          />
+        </div>
+
+        <!-- Text metadata area block -->
+        <div class="p-6">
+          <div class="eyebrow text-blue">
+            Promotional Design
+          </div>
+          <h4 class="mt-2 text-lg font-bold text-white font-display">
+            Product / Social Graphic
+          </h4>
+          <p class="mt-2 text-sm text-gray-500 leading-6">
+            Visual asset designed for digital promotion and social media communication.
+          </p>
+        </div>
+      </div>
+
+      <div class="px-6 pb-6 flex flex-wrap gap-2">
+        <span class="tag">Social Media</span>
+        <span class="tag">Brand Visual</span>
+        <span class="tag">Canva</span>
+      </div>
+    </article>
+
+
+    <!-- STATIC PROJECT 2: Interactive Vertical Multi-Photo Slider -->
+    <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
+      <div>
+        <!-- Main Carousel Frame with dark outline layout constraint configuration -->
+        <div class="relative w-full group border-b border-black bg-black">
+          
+          <!-- Scroll Box Container (Horizontal Snapping Core Engine in 9:16) -->
           <div
-            class="flex flex-col
-                   sm:flex-row
-                   sm:items-end
-                   justify-between
-                   gap-5
-                   mb-7"
+            id="static-01-slider"
+            class="workflow-placeholder
+                   w-full
+                   aspect-[9/16]
+                   max-h-[450px]
+                   overflow-x-auto
+                   flex
+                   scroll-smooth
+                   snap-x snap-mandatory
+                   scrollbar-hide"
+            style="-ms-overflow-style: none; scrollbar-width: none;"
           >
-
-            <div>
-
-              <div class="label">
-                01 / Static Graphics
-              </div>
-
-              <h3
-                class="mt-2
-                       text-2xl sm:text-3xl
-                       font-display
-                       font-bold
-                       text-white"
-              >
-                Visual communication & brand assets.
-              </h3>
-
+            <!-- Slide 1: Primary RITE-LITE Graphic Layout -->
+            <div id="rite-lite-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden">
+              <img
+                src="./screenshots/rite-lite.png"
+                alt="Marketing / Promotional Asset 1"
+                class="w-full h-full object-cover object-center block"
+              />
             </div>
 
-            <span class="tag">
-              Canva • Digital Design
-            </span>
-
+            <!-- Slide 2: Secondary Promotional Design Variant Layout -->
+            <div id="ysl-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden">
+              <img
+                src="./screenshots/aeon.png"
+                alt="Marketing / Promotional Asset 2"
+                class="w-full h-full object-cover object-center block"
+              />
+            </div>
           </div>
 
+          <!-- Navigation Target Indicator Dots Overlay (Upgraded to high-visibility Lime Green with thick black outline) -->
+          <div class="absolute bottom-4 left-0 right-0 flex justify-center gap-2 z-20">
+            <a 
+              href="#rite-lite-slide-1" 
+              class="w-3 h-3 rounded-full bg-lime border-2 border-black shadow-md transition-all duration-200"
+              aria-label="Go to Slide 1"
+            ></a>
+            <a 
+              href="#ysl-slide-2" 
+              class="w-3 h-3 rounded-full bg-lime/40 hover:bg-lime border-2 border-black shadow-md transition-all duration-200"
+              aria-label="Go to Slide 2"
+            ></a>
+          </div>
+        </div>
 
-        <div
-            class="grid
-                   sm:grid-cols-2
-                   lg:grid-cols-3
-                   gap-5"
-          >
+        <!-- Text metadata area block remains completely untouched -->
+        <div class="p-6">
+          <div class="eyebrow text-blue">
+            Promotional Design
+          </div>
+          <h4 class="mt-2 text-lg font-bold text-white font-display">
+            Marketing / Promotional Asset
+          </h4>
+          <p class="mt-2 text-sm text-gray-500 leading-6">
+            Designed for clear visual communication, promotion, and audience engagement.
+          </p>
+        </div>
+      </div>
 
-            <!-- STATIC PROJECT 1 -->
-            <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
-              
-              <div>
-                <!-- FIXED CONTAINER: Placeholder replaced with your actual image asset -->
-                <div class="workflow-placeholder aspect-[4/3] border-b border-white/5 overflow-hidden">
-                  <img
-                    src="./screenshots/ysl.png"
-                    alt="Product/Social Graphic"
-                    class="w-full h-full object-cover object-center block"
-                  />
-                </div>
+      <div class="px-6 pb-6 flex flex-wrap gap-2">
+        <span class="tag">Marketing</span>
+        <span class="tag">Visual Design</span>
+        <span class="tag">Canva</span>
+      </div>
+    </article>
+  
+  
+    <!-- STATIC PROJECT 3: Single Vertical Image -->
+    <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
+      <div>
+        <!-- OPTIMIZED CONTAINER: Swapped aspect-[4/3] with aspect-[9/16] to host vertical design asset -->
+        <div class="workflow-placeholder aspect-[9/16] max-h-[450px] border-b border-black bg-black overflow-hidden w-full">
+          <img
+            src="./screenshots/thekitchendeck.png"
+            alt="Brand/Digital Asset"
+            class="w-full h-full object-cover object-center block"
+          />
+        </div>
 
-                <!-- Text metadata area block -->
-                <div class="p-6">
+        <!-- Text metadata area block -->
+        <div class="p-6">
+          <div class="eyebrow text-blue">
+            Visual Identity
+          </div>
+          <h4 class="mt-2 text-lg font-bold text-white font-display">
+            Brand / Digital Asset
+          </h4>
+          <p class="mt-2 text-sm text-gray-500 leading-6">
+            A visual system created to maintain consistency across digital communication.
+          </p>
+        </div>
+      </div>
 
-                  <div class="eyebrow text-blue">
-                    Promotional Design
-                  </div>
+      <div class="px-6 pb-6 flex flex-wrap gap-2">
+        <span class="tag">Branding</span>
+        <span class="tag">Digital Assets</span>
+        <span class="tag">Design Sytem</span>
+        <span class="tag">Canva</span>
+      </div>
+    </article>
 
-                  <h4 class="mt-2 text-lg font-bold text-white">
-                    Product / Social Graphic
-                  </h4>
+  </div> <!-- End of master grid row split layout container -->
 
-                  <p
-                    class="mt-2
-                           text-sm
-                           text-gray-500
-                           leading-6"
-                  >
-                    Visual asset designed for digital promotion
-                    and social media communication.
-                  </p>
+</div> <!-- End of static-design section layout wrapper block -->
 
-                  <div class="mt-4 flex flex-wrap gap-2">
-                    <span class="tag">Social Media</span>
-                    <span class="tag">Brand Visual</span>
-                    <span class="tag">Canva</span>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </article>
-
-
-            <!-- STATIC PROJECT 2 -->
-            <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
-              
-              <div>
-                <!-- INTERACTIVE SLIDER FRAME: Holds 2 photos showing one at a time -->
-                <div class="relative w-full group">
-                  
-                  <!-- Scroll Box Container (Horizontal Snapping Core Engine) -->
-                  <div
-                    id="static-01-slider"
-                    class="workflow-placeholder
-                           aspect-[4/3]
-                           border-b border-white/5
-                           overflow-x-auto
-                           flex
-                           scroll-smooth
-                           snap-x snap-mandatory
-                           scrollbar-hide"
-                    style="-ms-overflow-style: none; scrollbar-width: none;"
-                  >
-                    <!-- Slide 1: Primary RITE-LITE Graphic Layout -->
-                    <div id="rite-lite-slide-1" class="w-full h-full shrink-0 snap-start overflow-hidden">
-                      <img
-                        src="./screenshots/rite-lite.png"
-                        alt="Marketing / Promotional Asset 1"
-                        class="w-full h-full object-cover object-center block"
-                      />
-                    </div>
-
-                    <!-- Slide 2: Secondary Promotional Design Variant Layout -->
-                    <div id="ysl-slide-2" class="w-full h-full shrink-0 snap-start overflow-hidden">
-                      <img
-                        src="./screenshots/aeon.png"
-                        alt="Marketing / Promotional Asset 2"
-                        class="w-full h-full object-cover object-center block"
-                      />
-                    </div>
-
-                  </div>
-
-                  <!-- Navigation Target Indicator Dots Overlay -->
-                  <div class="absolute bottom-3 left-0 right-0 flex justify-center gap-1.5 z-20">
-                    <a 
-                      href="#ysl-slide-1" 
-                      class="w-2 h-2 rounded-full bg-white/40 hover:bg-white focus:bg-lime active:bg-lime transition-all duration-200"
-                      aria-label="Go to Slide 1"
-                    ></a>
-                    <a 
-                      href="#ysl-slide-2" 
-                      class="w-2 h-2 rounded-full bg-white/40 hover:bg-white focus:bg-lime active:bg-lime transition-all duration-200"
-                      aria-label="Go to Slide 2"
-                    ></a>
-                  </div>
-
-                </div>
-
-                <!-- Text metadata area block remains completely untouched -->
-                <div class="p-6">
-
-                  <div class="eyebrow text-blue">
-                    Promotional Design
-                  </div>
-
-                  <h4 class="mt-2 text-lg font-bold text-white">
-                    Marketing / Promotional Asset
-                  </h4>
-
-                  <p
-                    class="mt-2
-                           text-sm
-                           text-gray-500
-                           leading-6"
-                  >
-                    Designed for clear visual communication, promotion, and audience engagement.
-                  </p>
-
-                  <div class="mt-4 flex flex-wrap gap-2">
-                    <span class="tag">Marketing</span>
-                    <span class="tag">Visual Design</span>
-                    <span class="tag">Canva</span>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </article>
-          
-          
-            <!-- STATIC PROJECT 3 -->
-            <article class="design-card glass rounded-3xl overflow-hidden flex flex-col justify-between">
-              
-              <div>
-                <!-- FIXED CONTAINER: Placeholder replaced with your actual image asset -->
-                <div class="workflow-placeholder aspect-[4/3] border-b border-white/5 overflow-hidden">
-                  <img
-                    src="./screenshots/thekitchendeck.png"
-                    alt="Brand/Digital Asset"
-                    class="w-full h-full object-cover object-center block"
-                  />
-                </div>
-
-                <!-- Text metadata area block -->
-                <div class="p-6">
-
-                  <div class="eyebrow text-blue">
-                    Visual Identity
-                  </div>
-
-                  <h4 class="mt-2 text-lg font-bold text-white">
-                    Brand / Digital Asset
-                  </h4>
-
-                  <p
-                    class="mt-2
-                           text-sm
-                           text-gray-500
-                           leading-6"
-                  >
-                    A visual system created to maintain consistency across digital communication.
-                  </p>
-
-                  <div class="mt-4 flex flex-wrap gap-2">
-                    <span class="tag">Branding</span>
-                    <span class="tag">Digital Assets</span>
-                    <span class="tag">Design Sytem</span>
-                    <span class="tag">Canva</span>
-                  </div>
-
-                </div>
-
-              </div>
-
-            </article>
-
-          </div> <!-- End of single layout grid container -->
-
-        </div> <!-- End of static-design section wrapper -->
 
          <!-- =========================================================
              MOTION GRAPHICS SECTION
