@@ -3720,23 +3720,34 @@
       </div>
 
     </div>
-<!-- Secure Dynamic View Tracker Wrapper -->
-<div id="analytics-tracker" style="display: none;"></div>
+ <!-- Private view counter: invisible to visitors -->
+    <div id="private-view-counter" style="display:none;" aria-hidden="true"></div>
 
-<script>
-  // Standard data fetch that bypasses tracking image blockers
-  fetch('https://mileshilliard.com')
-    .then(response => response.json())
-    .then(data => {
-      console.log('Target database initialized successfully.');
-    })
-    .catch(() => {
-      console.log('Network sync complete.');
-    });
-</script>
+    <script>
+      (function () {
+        var PRIVATE_COUNTER_KEY = "a3dde292a99115386cb348d5aaeea8c741a398db0a8a9be97dda9eeb15231e25";
 
-  </footer>
+        var counterEl = document.getElementById("private-view-counter");
 
+        fetch("https://countapi.mileshilliard.com/api/v1/hit/" + encodeURIComponent(PRIVATE_COUNTER_KEY))
+          .then(function (response) {
+            if (!response.ok) throw new Error("Counter request failed");
+            return response.json();
+          })
+          .then(function (data) {
+            counterEl.textContent = data.value;
+
+            // Visible only to you in the browser Console.
+            console.log("Private total views:", data.value);
+          })
+          .catch(function () {
+            // Fail silently so visitors never see an error.
+          });
+      })();
+    </script>
+
+  </div>
+</footer>
 
 </body>
 </html>
